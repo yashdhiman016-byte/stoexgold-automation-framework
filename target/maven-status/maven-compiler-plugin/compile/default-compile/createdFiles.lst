@@ -1,0 +1,10 @@
+base\BaseTest.class
+base\DriverFactory.class
+pages\LoginPage.class
+pages\DashboardPage.class
+utils\ScreenshotUtils.class
+utils\TestDataGenerator.class
+pages\RegisterPage.class
+pages\ForgotPasswordPage.class
+utils\DataReader.class
+utils\WaitUtils.class

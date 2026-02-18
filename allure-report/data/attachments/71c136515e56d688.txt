@@ -1,0 +1,1 @@
+[First name is required., Last name is required., Invalid email address., Password must be at least 8 characters., Please confirm your password.]

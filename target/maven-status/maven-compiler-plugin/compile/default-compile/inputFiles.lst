@@ -1,0 +1,10 @@
+D:\stoexgold-automation-enterprise-framework\src\main\java\base\BaseTest.java
+D:\stoexgold-automation-enterprise-framework\src\main\java\base\DriverFactory.java
+D:\stoexgold-automation-enterprise-framework\src\main\java\pages\DashboardPage.java
+D:\stoexgold-automation-enterprise-framework\src\main\java\pages\ForgotPasswordPage.java
+D:\stoexgold-automation-enterprise-framework\src\main\java\pages\LoginPage.java
+D:\stoexgold-automation-enterprise-framework\src\main\java\pages\RegisterPage.java
+D:\stoexgold-automation-enterprise-framework\src\main\java\utils\DataReader.java
+D:\stoexgold-automation-enterprise-framework\src\main\java\utils\ScreenshotUtils.java
+D:\stoexgold-automation-enterprise-framework\src\main\java\utils\TestDataGenerator.java
+D:\stoexgold-automation-enterprise-framework\src\main\java\utils\WaitUtils.java
