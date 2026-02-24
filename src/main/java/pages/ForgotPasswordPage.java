@@ -234,7 +234,7 @@ public class ForgotPasswordPage {
     // ERROR CAPTURE
     // =============================
 
-    // 1️⃣ Browser native validation
+    // (1) Browser native validation
     public String getBrowserValidationMessage() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement element = driver.findElement(emailField);
@@ -242,7 +242,7 @@ public class ForgotPasswordPage {
                 "return arguments[0].validationMessage;", element);
     }
 
-    // 2️⃣ Inline <p data-slot="form-message">
+    // (2) Inline <p data-slot="form-message">
     public List<String> getInlineErrors() {
 
         WaitUtils.waitForSeconds(1);
@@ -255,7 +255,7 @@ public class ForgotPasswordPage {
                 .collect(Collectors.toList());
     }
 
-    // 3️⃣ Toast error
+    // (3) Toast error
     public String getToastError() {
         WaitUtils.waitForSeconds(1);
         try {
@@ -265,7 +265,7 @@ public class ForgotPasswordPage {
         }
     }
 
-    // 4️⃣ Success message
+    // (4) Success message
     public boolean isSuccessMessageDisplayed() {
         try {
             WaitUtils.waitForSeconds(2);

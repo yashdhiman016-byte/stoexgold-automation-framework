@@ -126,7 +126,7 @@
 //    // ERROR CAPTURE
 //    // -----------------------------
 //
-//    // 1️⃣ Inline <p data-slot="form-message">
+//    // (1) Inline <p data-slot="form-message">
 //    public List<String> getInlineErrors() {
 //        WaitUtils.waitForSeconds(1);
 //
@@ -138,7 +138,7 @@
 //                .collect(Collectors.toList());
 //    }
 //
-//    // 2️⃣ Browser native validation message
+//    // (2) Browser native validation message
 //    public String getBrowserValidationMessage(By locator) {
 //        JavascriptExecutor js = (JavascriptExecutor) driver;
 //        WebElement element = driver.findElement(locator);
@@ -146,7 +146,7 @@
 //                "return arguments[0].validationMessage;", element);
 //    }
 //
-//    // 3️⃣ Toast error <div data-title>
+//    // (3) Toast error <div data-title>
 //    public String getToastError() {
 //        WaitUtils.waitForSeconds(1);
 //        try {
@@ -185,7 +185,7 @@ public class LoginPage {
 
     // MOBILE TAB
     By mobileTab = By.xpath("//button[contains(text(),'Login with Mobile')]");
-    By mobileField = By.name("mobile");     // ✅ FIXED (was contactNumber)
+    By mobileField = By.name("mobile");     // [FIXED] (was contactNumber)
     By sendOtpBtn = By.xpath("//button[text()='Send OTP']");
 
     // INLINE ERRORS
@@ -238,7 +238,7 @@ public class LoginPage {
     // ERROR CAPTURE
     // ===============================
 
-    // 1️⃣ Inline Errors
+    // (1) Inline Errors
     public List<String> getInlineErrors() {
         WaitUtils.waitForSeconds(1);
 
@@ -250,7 +250,7 @@ public class LoginPage {
                 .collect(Collectors.toList());
     }
 
-    // 2️⃣ Browser Native Validation Message
+    // (2) Browser Native Validation Message
     public String getBrowserValidationMessage(By locator) {
         try {
             WebElement element = WaitUtils.waitForVisible(driver, locator);
@@ -262,7 +262,7 @@ public class LoginPage {
         }
     }
 
-    // 3️⃣ Toast Error
+    // (3) Toast Error
     public String getToastError() {
         WaitUtils.waitForSeconds(1);
         try {
