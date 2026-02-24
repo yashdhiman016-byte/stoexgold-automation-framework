@@ -1,10 +1,13 @@
 D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\base\BaseTest.java
 D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\pages\RegisterPage.java
 D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\pages\LoginPage.java
+D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\listeners\QAEvidenceTestListener.java
 D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\utils\TestDataGenerator.java
 D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\base\DriverFactory.java
+D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\reporting\ExcelEvidenceReporter.java
+D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\pages\DashboardPage.java
+D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\reporting\QaEvidence.java
 D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\utils\ScreenshotUtils.java
 D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\pages\ForgotPasswordPage.java
-D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\pages\DashboardPage.java
 D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\utils\DataReader.java
 D:\24-02-2026\stoexgold-automation-enterprise-framework\src\main\java\utils\WaitUtils.java

@@ -1,0 +1,8 @@
+tests\ForgotPasswordTest.class
+tests\RegisterEmailTest.class
+tests\LoginValidationTest.class
+tests\RegisterLastNameTest.class
+tests\RegisterFirstNameTest.class
+tests\RegisterPasswordTest.class
+tests\RegisterFullFlowTest.class
+tests\RegisterMobileTest.class

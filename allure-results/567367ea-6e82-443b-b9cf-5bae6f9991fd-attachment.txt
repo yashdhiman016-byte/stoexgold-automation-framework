@@ -1,1 +1,0 @@
-A part followed by '@' should not contain the symbol ' '.

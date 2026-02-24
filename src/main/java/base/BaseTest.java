@@ -99,12 +99,14 @@
 package base;
 
 import io.qameta.allure.Allure;
+import listeners.QAEvidenceTestListener;
 import org.openqa.selenium.*;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import java.io.ByteArrayInputStream;
 
+@Listeners(QAEvidenceTestListener.class)
 public class BaseTest {
 
     protected WebDriver driver;
@@ -146,5 +148,9 @@ public class BaseTest {
         } catch (Exception e) {
             System.out.println("Screenshot capture failed: " + e.getMessage());
         }
+    }
+
+    public WebDriver getDriver() {
+        return driver;
     }
 }

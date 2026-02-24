@@ -1,0 +1,13 @@
+pages\LoginPage.class
+reporting\ExcelEvidenceReporter.class
+pages\DashboardPage.class
+utils\TestDataGenerator.class
+pages\RegisterPage.class
+pages\ForgotPasswordPage.class
+listeners\QAEvidenceTestListener.class
+utils\WaitUtils.class
+base\BaseTest.class
+reporting\QaEvidence.class
+base\DriverFactory.class
+utils\ScreenshotUtils.class
+utils\DataReader.class
