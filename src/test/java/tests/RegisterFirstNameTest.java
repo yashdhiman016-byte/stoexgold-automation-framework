@@ -115,38 +115,38 @@ public class RegisterFirstNameTest extends BaseTest {
     // NEGATIVE TEST CASES
     // ==========================================
 
-    @Test(description = "Empty First Name")
+    @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void FN_01_Empty() { runNegativeTest(""); }
 
-    @Test(description = "Numeric First Name")
+    @Test(description = "Validates the Numeric scenario to confirm the expected application behavior for this input combination.")
     public void FN_02_Numeric() { runNegativeTest("1234"); }
 
-    @Test(description = "Special Characters")
+    @Test(description = "Validates the Special scenario to confirm the expected application behavior for this input combination.")
     public void FN_03_Special() { runNegativeTest("@@@"); }
 
-    @Test(description = "Single Character")
+    @Test(description = "Validates the Single Char scenario to confirm the expected application behavior for this input combination.")
     public void FN_04_SingleChar() { runNegativeTest("A"); }
 
-    @Test(description = "Alpha Numeric")
+    @Test(description = "Validates the Alpha Numeric scenario to confirm the expected application behavior for this input combination.")
     public void FN_05_AlphaNumeric() { runNegativeTest("Yash123"); }
 
-    @Test(description = "Very Long Name")
+    @Test(description = "Validates the Long Name scenario to confirm the expected application behavior for this input combination.")
     public void FN_06_LongName() { runNegativeTest("VeryLongNameTestingField"); }
 
-    @Test(description = "Only Spaces")
+    @Test(description = "Validates the Spaces scenario to confirm the expected application behavior for this input combination.")
     public void FN_07_Spaces() { runNegativeTest("     "); }
 
-    @Test(description = "Leading Space")
+    @Test(description = "Validates the Leading Space scenario to confirm the expected application behavior for this input combination.")
     public void FN_08_LeadingSpace() { runNegativeTest(" Yash"); }
 
-    @Test(description = "Trailing Space")
+    @Test(description = "Validates the Trailing Space scenario to confirm the expected application behavior for this input combination.")
     public void FN_09_TrailingSpace() { runNegativeTest("Yash "); }
 
     // ==========================================
     // POSITIVE TEST
     // ==========================================
 
-    @Test(description = "Valid First Name")
+    @Test(description = "Validates the Valid scenario to confirm the expected application behavior for this input combination.")
     @Severity(SeverityLevel.CRITICAL)
     public void FN_10_Valid() {
 

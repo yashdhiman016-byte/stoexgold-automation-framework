@@ -122,38 +122,38 @@ public class RegisterMobileTest extends BaseTest {
     // NEGATIVE TEST CASES
     // ======================================
 
-    @Test(description = "Empty Mobile")
+    @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void MB_01_Empty() { executeNegative(""); }
 
-    @Test(description = "Too Short")
+    @Test(description = "Validates the Short scenario to confirm the expected application behavior for this input combination.")
     public void MB_02_Short() { executeNegative("123"); }
 
-    @Test(description = "Too Long")
+    @Test(description = "Validates the Long scenario to confirm the expected application behavior for this input combination.")
     public void MB_03_Long() { executeNegative("1234567890123"); }
 
-    @Test(description = "Alphabet Only")
+    @Test(description = "Validates the Alphabet scenario to confirm the expected application behavior for this input combination.")
     public void MB_04_Alphabet() { executeNegative("abcdefghij"); }
 
-    @Test(description = "Special Characters")
+    @Test(description = "Validates the Special scenario to confirm the expected application behavior for this input combination.")
     public void MB_05_Special() { executeNegative("@@@@"); }
 
-    @Test(description = "Mixed Characters")
+    @Test(description = "Validates the Mixed scenario to confirm the expected application behavior for this input combination.")
     public void MB_06_Mixed() { executeNegative("9876abc123"); }
 
-    @Test(description = "Only Spaces")
+    @Test(description = "Validates the Spaces scenario to confirm the expected application behavior for this input combination.")
     public void MB_07_Spaces() { executeNegative("     "); }
 
-    @Test(description = "Leading Space")
+    @Test(description = "Validates the Leading Space scenario to confirm the expected application behavior for this input combination.")
     public void MB_08_LeadingSpace() { executeNegative(" 9876543210"); }
 
-    @Test(description = "Trailing Space")
+    @Test(description = "Validates the Trailing Space scenario to confirm the expected application behavior for this input combination.")
     public void MB_09_TrailingSpace() { executeNegative("9876543210 "); }
 
     // ======================================
     // VALID FORMAT (May Proceed to OTP Screen)
     // ======================================
 
-    @Test(description = "Valid Format Mobile")
+    @Test(description = "Validates the Valid Format scenario to confirm the expected application behavior for this input combination.")
     @Severity(SeverityLevel.CRITICAL)
     public void MB_10_ValidFormat() {
 

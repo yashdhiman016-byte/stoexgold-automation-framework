@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1736.871" tests="113" errors="0" skipped="0" failures="31">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1667.25" tests="113" errors="0" skipped="0" failures="34">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="webdriver.chrome.driver" value="C:\Users\yash.dhiman\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\yash.dhiman\AppData\Local\Temp\surefire16253426167693266640\surefirebooter-20260224125530703_3.jar C:\Users\yash.dhiman\AppData\Local\Temp\surefire16253426167693266640 2026-02-24T12-55-30_287-jvmRun1 surefire-20260224125530703_1tmp surefire_0-20260224125530703_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\yash.dhiman\AppData\Local\Temp\surefire937822309778122266\surefirebooter-20260224140306748_3.jar C:\Users\yash.dhiman\AppData\Local\Temp\surefire937822309778122266 2026-02-24T14-03-06_445-jvmRun1 surefire-20260224140306748_1tmp surefire_0-20260224140306748_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\24-02-2026\stoexgold-automation-enterprise-framework\target\test-classes;D:\24-02-2026\stoexgold-automation-enterprise-framework\target\classes;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\yash.dhiman\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\yash.dhiman\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\yash.dhiman\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\yash.dhiman\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\yash.dhiman\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\yash.dhiman\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\yash.dhiman\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\yash.dhiman\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\yash.dhiman\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\yash.dhiman\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\yash.dhiman\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\yash.dhiman\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\yash.dhiman\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\yash.dhiman\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\yash.dhiman\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\yash.dhiman\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\yash.dhiman\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\yash.dhiman\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\yash.dhiman\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\yash.dhiman\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\yash.dhiman\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\yash.dhiman\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\yash.dhiman\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\yash.dhiman\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\yash.dhiman\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\yash.dhiman\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\yash.dhiman\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\yash.dhiman\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\yash.dhiman\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\yash.dhiman\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\yash.dhiman\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\yash.dhiman\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\yash.dhiman\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\yash.dhiman\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\yash.dhiman\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\yash.dhiman\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\yash.dhiman\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\yash.dhiman\AppData\Local\Temp\surefire16253426167693266640\surefirebooter-20260224125530703_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\yash.dhiman\AppData\Local\Temp\surefire937822309778122266\surefirebooter-20260224140306748_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -60,298 +60,298 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="dot_at_end" classname="tests.ForgotPasswordTest" time="9.468">
+  <testcase name="dot_at_end" classname="tests.ForgotPasswordTest" time="9.247">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-Feb 24, 2026 12:55:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 24, 2026 2:03:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:55:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:03:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="dot_at_start" classname="tests.ForgotPasswordTest" time="8.243">
-    <system-err><![CDATA[Feb 24, 2026 12:56:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="dot_at_start" classname="tests.ForgotPasswordTest" time="7.476">
+    <system-err><![CDATA[Feb 24, 2026 2:03:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:56:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:03:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="double_at" classname="tests.ForgotPasswordTest" time="12.803">
-    <system-err><![CDATA[Feb 24, 2026 12:56:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="double_at" classname="tests.ForgotPasswordTest" time="12.651">
+    <system-err><![CDATA[Feb 24, 2026 2:03:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:56:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:03:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_empty" classname="tests.ForgotPasswordTest" time="7.401">
-    <system-err><![CDATA[Feb 24, 2026 12:56:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_empty" classname="tests.ForgotPasswordTest" time="7.377">
+    <system-err><![CDATA[Feb 24, 2026 2:04:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:56:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:04:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="leading_space" classname="tests.ForgotPasswordTest" time="12.846">
-    <system-err><![CDATA[Feb 24, 2026 12:56:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="leading_space" classname="tests.ForgotPasswordTest" time="12.587">
+    <system-err><![CDATA[Feb 24, 2026 2:04:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:56:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:04:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="missing_at" classname="tests.ForgotPasswordTest" time="12.558">
-    <system-err><![CDATA[Feb 24, 2026 12:57:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="missing_at" classname="tests.ForgotPasswordTest" time="12.719">
+    <system-err><![CDATA[Feb 24, 2026 2:04:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:57:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:04:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="missing_domain" classname="tests.ForgotPasswordTest" time="12.599">
-    <system-err><![CDATA[Feb 24, 2026 12:57:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="missing_domain" classname="tests.ForgotPasswordTest" time="12.455">
+    <system-err><![CDATA[Feb 24, 2026 2:05:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:57:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:05:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="missing_username" classname="tests.ForgotPasswordTest" time="12.997">
-    <system-err><![CDATA[Feb 24, 2026 12:57:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="missing_username" classname="tests.ForgotPasswordTest" time="12.417">
+    <system-err><![CDATA[Feb 24, 2026 2:05:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:57:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:05:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="multiple_dots" classname="tests.ForgotPasswordTest" time="7.938">
-    <system-err><![CDATA[Feb 24, 2026 12:58:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="multiple_dots" classname="tests.ForgotPasswordTest" time="7.324">
+    <system-err><![CDATA[Feb 24, 2026 2:05:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:58:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:05:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="no_dot_in_domain" classname="tests.ForgotPasswordTest" time="7.528">
-    <system-err><![CDATA[Feb 24, 2026 12:58:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="no_dot_in_domain" classname="tests.ForgotPasswordTest" time="7.401">
+    <system-err><![CDATA[Feb 24, 2026 2:06:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:58:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:06:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="numeric_email" classname="tests.ForgotPasswordTest" time="12.584">
-    <system-err><![CDATA[Feb 24, 2026 12:58:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="numeric_email" classname="tests.ForgotPasswordTest" time="12.842">
+    <system-err><![CDATA[Feb 24, 2026 2:06:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:58:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:06:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="script_injection" classname="tests.ForgotPasswordTest" time="14.119">
-    <system-err><![CDATA[Feb 24, 2026 12:58:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="script_injection" classname="tests.ForgotPasswordTest" time="13.241">
+    <system-err><![CDATA[Feb 24, 2026 2:06:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:58:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:06:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="single_character_username" classname="tests.ForgotPasswordTest" time="12.712">
-    <system-err><![CDATA[Feb 24, 2026 12:59:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="single_character_username" classname="tests.ForgotPasswordTest" time="12.562">
+    <system-err><![CDATA[Feb 24, 2026 2:06:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:59:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:06:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="spaces_in_between" classname="tests.ForgotPasswordTest" time="12.611">
-    <system-err><![CDATA[Feb 24, 2026 12:59:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="spaces_in_between" classname="tests.ForgotPasswordTest" time="12.721">
+    <system-err><![CDATA[Feb 24, 2026 2:07:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 12:59:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:07:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="special_chars_only" classname="tests.ForgotPasswordTest" time="12.623">
-    <system-err><![CDATA[Feb 24, 2026 1:00:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="special_chars_only" classname="tests.ForgotPasswordTest" time="12.373">
+    <system-err><![CDATA[Feb 24, 2026 2:07:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:00:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:07:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="sql_injection" classname="tests.ForgotPasswordTest" time="12.961">
-    <system-err><![CDATA[Feb 24, 2026 1:00:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="sql_injection" classname="tests.ForgotPasswordTest" time="12.479">
+    <system-err><![CDATA[Feb 24, 2026 2:07:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:00:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:07:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="trailing_space" classname="tests.ForgotPasswordTest" time="7.712">
-    <system-err><![CDATA[Feb 24, 2026 1:00:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="trailing_space" classname="tests.ForgotPasswordTest" time="12.541">
+    <system-err><![CDATA[Feb 24, 2026 2:08:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:00:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:08:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="uppercase_email" classname="tests.ForgotPasswordTest" time="14.193">
-    <system-err><![CDATA[Feb 24, 2026 1:00:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="uppercase_email" classname="tests.ForgotPasswordTest" time="7.882">
+    <system-err><![CDATA[Feb 24, 2026 2:08:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:00:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:08:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="valid_format_unregistered" classname="tests.ForgotPasswordTest" time="12.741">
-    <system-err><![CDATA[Feb 24, 2026 1:01:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="valid_format_unregistered" classname="tests.ForgotPasswordTest" time="12.584">
+    <system-err><![CDATA[Feb 24, 2026 2:08:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:01:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:08:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="valid_registered_email" classname="tests.ForgotPasswordTest" time="3.223">
-    <system-err><![CDATA[Feb 24, 2026 1:01:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="valid_registered_email" classname="tests.ForgotPasswordTest" time="2.553">
+    <system-err><![CDATA[Feb 24, 2026 2:09:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:01:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:09:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="very_long_email" classname="tests.ForgotPasswordTest" time="12.582">
-    <system-err><![CDATA[Feb 24, 2026 1:01:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="very_long_email" classname="tests.ForgotPasswordTest" time="12.778">
+    <system-err><![CDATA[Feb 24, 2026 2:09:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:01:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:09:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_empty_both_fields" classname="tests.LoginValidationTest" time="2.801">
-    <system-err><![CDATA[Feb 24, 2026 1:02:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_empty_both_fields" classname="tests.LoginValidationTest" time="4.565">
+    <system-err><![CDATA[Feb 24, 2026 2:09:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:02:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:09:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_invalid_format_simple" classname="tests.LoginValidationTest" time="9.147">
-    <system-err><![CDATA[Feb 24, 2026 1:02:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_invalid_format_simple" classname="tests.LoginValidationTest" time="9.218">
+    <system-err><![CDATA[Feb 24, 2026 2:09:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:02:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:09:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_leading_space" classname="tests.LoginValidationTest" time="19.756">
-    <system-err><![CDATA[Feb 24, 2026 1:02:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_leading_space" classname="tests.LoginValidationTest" time="18.602">
+    <system-err><![CDATA[Feb 24, 2026 2:10:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:02:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:10:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_long_string" classname="tests.LoginValidationTest" time="19.866">
-    <system-err><![CDATA[Feb 24, 2026 1:03:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_long_string" classname="tests.LoginValidationTest" time="21.302">
+    <system-err><![CDATA[Feb 24, 2026 2:10:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:03:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:10:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_missing_at_symbol" classname="tests.LoginValidationTest" time="8.213">
-    <system-err><![CDATA[Feb 24, 2026 1:03:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_missing_at_symbol" classname="tests.LoginValidationTest" time="8.098">
+    <system-err><![CDATA[Feb 24, 2026 2:11:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:03:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:11:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_missing_domain" classname="tests.LoginValidationTest" time="8.507">
-    <system-err><![CDATA[Feb 24, 2026 1:03:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_missing_domain" classname="tests.LoginValidationTest" time="7.831">
+    <system-err><![CDATA[Feb 24, 2026 2:11:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:03:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:11:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_numeric_only" classname="tests.LoginValidationTest" time="9.468">
-    <system-err><![CDATA[Feb 24, 2026 1:04:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_numeric_only" classname="tests.LoginValidationTest" time="7.744">
+    <system-err><![CDATA[Feb 24, 2026 2:11:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:04:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:11:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_script_injection" classname="tests.LoginValidationTest" time="8.051">
-    <system-err><![CDATA[Feb 24, 2026 1:04:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_script_injection" classname="tests.LoginValidationTest" time="8.022">
+    <system-err><![CDATA[Feb 24, 2026 2:11:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:04:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:11:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_spaces_only" classname="tests.LoginValidationTest" time="4.586">
-    <system-err><![CDATA[Feb 24, 2026 1:04:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_spaces_only" classname="tests.LoginValidationTest" time="2.657">
+    <system-err><![CDATA[Feb 24, 2026 2:12:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:04:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:12:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_special_chars" classname="tests.LoginValidationTest" time="8.697">
-    <system-err><![CDATA[Feb 24, 2026 1:04:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_special_chars" classname="tests.LoginValidationTest" time="7.9">
+    <system-err><![CDATA[Feb 24, 2026 2:12:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:04:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:12:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_sql_injection" classname="tests.LoginValidationTest" time="7.922">
-    <system-err><![CDATA[Feb 24, 2026 1:05:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_sql_injection" classname="tests.LoginValidationTest" time="8.522">
+    <system-err><![CDATA[Feb 24, 2026 2:12:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:05:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:12:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_trailing_space" classname="tests.LoginValidationTest" time="19.917">
-    <system-err><![CDATA[Feb 24, 2026 1:05:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_trailing_space" classname="tests.LoginValidationTest" time="18.803">
+    <system-err><![CDATA[Feb 24, 2026 2:12:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:05:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:12:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="email_uppercase" classname="tests.LoginValidationTest" time="18.806">
-    <system-err><![CDATA[Feb 24, 2026 1:05:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="email_uppercase" classname="tests.LoginValidationTest" time="18.463">
+    <system-err><![CDATA[Feb 24, 2026 2:13:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:05:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:13:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_11_digits" classname="tests.LoginValidationTest" time="4.474">
-    <system-err><![CDATA[Feb 24, 2026 1:06:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_11_digits" classname="tests.LoginValidationTest" time="2.787">
+    <system-err><![CDATA[Feb 24, 2026 2:13:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:06:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:13:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_9_digits" classname="tests.LoginValidationTest" time="2.71">
-    <system-err><![CDATA[Feb 24, 2026 1:06:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_9_digits" classname="tests.LoginValidationTest" time="3.163">
+    <system-err><![CDATA[Feb 24, 2026 2:13:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:06:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:13:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_alphabets" classname="tests.LoginValidationTest" time="5.392">
-    <system-err><![CDATA[Feb 24, 2026 1:06:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_alphabets" classname="tests.LoginValidationTest" time="13.193">
+    <system-err><![CDATA[Feb 24, 2026 2:13:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:06:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:13:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_empty" classname="tests.LoginValidationTest" time="2.676">
-    <system-err><![CDATA[Feb 24, 2026 1:06:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_empty" classname="tests.LoginValidationTest" time="2.977">
+    <system-err><![CDATA[Feb 24, 2026 2:14:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:06:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:14:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_long_number" classname="tests.LoginValidationTest" time="3.011">
-    <system-err><![CDATA[Feb 24, 2026 1:06:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_long_number" classname="tests.LoginValidationTest" time="3.349">
+    <system-err><![CDATA[Feb 24, 2026 2:14:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:06:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:14:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_mixed_chars" classname="tests.LoginValidationTest" time="2.955">
-    <system-err><![CDATA[Feb 24, 2026 1:07:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_mixed_chars" classname="tests.LoginValidationTest" time="3.77">
+    <system-err><![CDATA[Feb 24, 2026 2:14:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:07:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:14:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_rapid_click" classname="tests.LoginValidationTest" time="12.618">
-    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=&apos;Send OTP&apos;] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60627}, goog:processID: 58864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60627/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 59a4fad41385040417fa11d2274ba8ee" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="mobile_rapid_click" classname="tests.LoginValidationTest" time="12.144">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=&apos;Send OTP&apos;] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53495}, goog:processID: 65192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53495/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 941cf8846a451237b625f050cbe400b1" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()='Send OTP'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60627}, goog:processID: 58864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60627/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 59a4fad41385040417fa11d2274ba8ee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53495}, goog:processID: 65192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53495/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 941cf8846a451237b625f050cbe400b1
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at utils.WaitUtils.waitForClickable(WaitUtils.java:17)
@@ -389,107 +389,107 @@ Session ID: 59a4fad41385040417fa11d2274ba8ee
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:07:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:14:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:07:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:14:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_script_injection" classname="tests.LoginValidationTest" time="2.763">
-    <system-err><![CDATA[Feb 24, 2026 1:07:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_script_injection" classname="tests.LoginValidationTest" time="3.131">
+    <system-err><![CDATA[Feb 24, 2026 2:14:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:07:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:14:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_short_number" classname="tests.LoginValidationTest" time="2.677">
-    <system-err><![CDATA[Feb 24, 2026 1:07:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_short_number" classname="tests.LoginValidationTest" time="2.658">
+    <system-err><![CDATA[Feb 24, 2026 2:14:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:07:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:14:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_spaces" classname="tests.LoginValidationTest" time="2.643">
-    <system-err><![CDATA[Feb 24, 2026 1:07:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_spaces" classname="tests.LoginValidationTest" time="2.621">
+    <system-err><![CDATA[Feb 24, 2026 2:15:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:07:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:15:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_special_chars" classname="tests.LoginValidationTest" time="6.271">
-    <system-err><![CDATA[Feb 24, 2026 1:07:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_special_chars" classname="tests.LoginValidationTest" time="2.626">
+    <system-err><![CDATA[Feb 24, 2026 2:15:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:07:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:15:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_sql_injection" classname="tests.LoginValidationTest" time="4.3">
-    <system-err><![CDATA[Feb 24, 2026 1:08:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_sql_injection" classname="tests.LoginValidationTest" time="3.204">
+    <system-err><![CDATA[Feb 24, 2026 2:15:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:08:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:15:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_valid_format_but_unregistered" classname="tests.LoginValidationTest" time="4.746">
-    <system-err><![CDATA[Feb 24, 2026 1:08:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_valid_format_but_unregistered" classname="tests.LoginValidationTest" time="3.267">
+    <system-err><![CDATA[Feb 24, 2026 2:15:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:08:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:15:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="mobile_with_plus" classname="tests.LoginValidationTest" time="3.972">
-    <system-err><![CDATA[Feb 24, 2026 1:08:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="mobile_with_plus" classname="tests.LoginValidationTest" time="3.133">
+    <system-err><![CDATA[Feb 24, 2026 2:15:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:08:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:15:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="password_empty" classname="tests.LoginValidationTest" time="2.723">
-    <system-err><![CDATA[Feb 24, 2026 1:08:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="password_empty" classname="tests.LoginValidationTest" time="2.639">
+    <system-err><![CDATA[Feb 24, 2026 2:15:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:08:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:15:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="password_less_than_8" classname="tests.LoginValidationTest" time="2.763">
-    <system-err><![CDATA[Feb 24, 2026 1:08:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="password_less_than_8" classname="tests.LoginValidationTest" time="3.147">
+    <system-err><![CDATA[Feb 24, 2026 2:15:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:08:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:15:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="password_only_letters" classname="tests.LoginValidationTest" time="27.261">
-    <system-err><![CDATA[Feb 24, 2026 1:08:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="password_only_letters" classname="tests.LoginValidationTest" time="18.227">
+    <system-err><![CDATA[Feb 24, 2026 2:16:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:08:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:16:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="password_only_numbers" classname="tests.LoginValidationTest" time="18.454">
-    <system-err><![CDATA[Feb 24, 2026 1:09:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="password_only_numbers" classname="tests.LoginValidationTest" time="18.346">
+    <system-err><![CDATA[Feb 24, 2026 2:16:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:09:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:16:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="password_special_chars_only" classname="tests.LoginValidationTest" time="20.048">
-    <system-err><![CDATA[Feb 24, 2026 1:09:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="password_special_chars_only" classname="tests.LoginValidationTest" time="18.234">
+    <system-err><![CDATA[Feb 24, 2026 2:16:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:09:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:16:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_01_Empty" classname="tests.RegisterEmailTest" time="6.554">
-    <failure message="element click intercepted: Element &lt;button class=&quot;inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;amp;_svg]:pointer-events-none [&amp;amp;_svg]:size-4 [&amp;amp;_svg]:shrink-0 active:scale-[0.98] px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white whitespace-nowrap h-11 cursor-pointer&quot; type=&quot;button&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (1379, 368). Other element would receive the click: &lt;div class=&quot;flex gap-2 relative&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=145.0.7632.111)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b49fb0abc085debed22b0397f7074d83, clickElement {id=f.8B57014F26DCA0F3127B85F6C54D0F9E.d.2FF05DAED3B1396631212DF7E43703D2.e.29}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61497}, goog:processID: 45864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61497/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (b49fb0abc085debed22b0397f7074d83)] -&gt; xpath: (//button[text()=&apos;Send OTP&apos;])[2]]&#10;Session ID: b49fb0abc085debed22b0397f7074d83" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+  <testcase name="EM_01_Empty" classname="tests.RegisterEmailTest" time="3.451">
+    <failure message="element click intercepted: Element &lt;button class=&quot;inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;amp;_svg]:pointer-events-none [&amp;amp;_svg]:size-4 [&amp;amp;_svg]:shrink-0 active:scale-[0.98] px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white whitespace-nowrap h-11 cursor-pointer&quot; type=&quot;button&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (1379, 368). Other element would receive the click: &lt;div class=&quot;flex gap-2 relative&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=145.0.7632.111)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e2a242c1bda25387322e1b756b4457c0, clickElement {id=f.558585629226D388A44C98D493D21033.d.E5F5E15C56C46DF2880E0E03AB3A586A.e.23}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54089}, goog:processID: 12196, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54089/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (e2a242c1bda25387322e1b756b4457c0)] -&gt; xpath: (//button[text()=&apos;Send OTP&apos;])[2]]&#10;Session ID: e2a242c1bda25387322e1b756b4457c0" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
 element click intercepted: Element <button class="inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:scale-[0.98] px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white whitespace-nowrap h-11 cursor-pointer" type="button" disabled="">...</button> is not clickable at point (1379, 368). Other element would receive the click: <div class="flex gap-2 relative">...</div>
   (Session info: chrome=145.0.7632.111)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b49fb0abc085debed22b0397f7074d83, clickElement {id=f.8B57014F26DCA0F3127B85F6C54D0F9E.d.2FF05DAED3B1396631212DF7E43703D2.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61497}, goog:processID: 45864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61497/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b49fb0abc085debed22b0397f7074d83)] -> xpath: (//button[text()='Send OTP'])[2]]
-Session ID: b49fb0abc085debed22b0397f7074d83
+Command: [e2a242c1bda25387322e1b756b4457c0, clickElement {id=f.558585629226D388A44C98D493D21033.d.E5F5E15C56C46DF2880E0E03AB3A586A.e.23}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54089}, goog:processID: 12196, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54089/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e2a242c1bda25387322e1b756b4457c0)] -> xpath: (//button[text()='Send OTP'])[2]]
+Session ID: e2a242c1bda25387322e1b756b4457c0
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -537,44 +537,44 @@ Session ID: b49fb0abc085debed22b0397f7074d83
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:10:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:17:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:10:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:17:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_02_NoAt" classname="tests.RegisterEmailTest" time="11.926">
-    <system-err><![CDATA[Feb 24, 2026 1:10:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="EM_02_NoAt" classname="tests.RegisterEmailTest" time="11.381">
+    <system-err><![CDATA[Feb 24, 2026 2:17:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:10:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:17:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_03_NoDomain" classname="tests.RegisterEmailTest" time="6.3">
-    <system-err><![CDATA[Feb 24, 2026 1:10:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="EM_03_NoDomain" classname="tests.RegisterEmailTest" time="6.977">
+    <system-err><![CDATA[Feb 24, 2026 2:17:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:10:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:17:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_04_SpecialChar" classname="tests.RegisterEmailTest" time="6.834">
-    <system-err><![CDATA[Feb 24, 2026 1:10:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="EM_04_SpecialChar" classname="tests.RegisterEmailTest" time="9.069">
+    <system-err><![CDATA[Feb 24, 2026 2:17:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:10:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:17:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_05_Spaces" classname="tests.RegisterEmailTest" time="3.641">
-    <failure message="element click intercepted: Element &lt;button class=&quot;inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;amp;_svg]:pointer-events-none [&amp;amp;_svg]:size-4 [&amp;amp;_svg]:shrink-0 active:scale-[0.98] px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white whitespace-nowrap h-11 cursor-pointer&quot; type=&quot;button&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (1379, 368). Other element would receive the click: &lt;div class=&quot;flex gap-2 relative&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=145.0.7632.111)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6189d0a056d0a8241e553912a73e79ce, clickElement {id=f.CDD978284001981525C29E74C7D7CC83.d.9C98D0135754CE436F29A939CD0CE85C.e.23}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61712}, goog:processID: 4224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61712/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (6189d0a056d0a8241e553912a73e79ce)] -&gt; xpath: (//button[text()=&apos;Send OTP&apos;])[2]]&#10;Session ID: 6189d0a056d0a8241e553912a73e79ce" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+  <testcase name="EM_05_Spaces" classname="tests.RegisterEmailTest" time="2.38">
+    <failure message="element click intercepted: Element &lt;button class=&quot;inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;amp;_svg]:pointer-events-none [&amp;amp;_svg]:size-4 [&amp;amp;_svg]:shrink-0 active:scale-[0.98] px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white whitespace-nowrap h-11 cursor-pointer&quot; type=&quot;button&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (1379, 368). Other element would receive the click: &lt;div class=&quot;flex gap-2 relative&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=145.0.7632.111)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6710350aceb0ff6cf4ecc2712cbcbd22, clickElement {id=f.4BF09FBB1E92200CE6D05CE2EFE48230.d.1D0449A10D79B6066039D9BC345A952A.e.23}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54286}, goog:processID: 18416, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54286/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (6710350aceb0ff6cf4ecc2712cbcbd22)] -&gt; xpath: (//button[text()=&apos;Send OTP&apos;])[2]]&#10;Session ID: 6710350aceb0ff6cf4ecc2712cbcbd22" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
 element click intercepted: Element <button class="inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:scale-[0.98] px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white whitespace-nowrap h-11 cursor-pointer" type="button" disabled="">...</button> is not clickable at point (1379, 368). Other element would receive the click: <div class="flex gap-2 relative">...</div>
   (Session info: chrome=145.0.7632.111)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6189d0a056d0a8241e553912a73e79ce, clickElement {id=f.CDD978284001981525C29E74C7D7CC83.d.9C98D0135754CE436F29A939CD0CE85C.e.23}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61712}, goog:processID: 4224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61712/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6189d0a056d0a8241e553912a73e79ce)] -> xpath: (//button[text()='Send OTP'])[2]]
-Session ID: 6189d0a056d0a8241e553912a73e79ce
+Command: [6710350aceb0ff6cf4ecc2712cbcbd22, clickElement {id=f.4BF09FBB1E92200CE6D05CE2EFE48230.d.1D0449A10D79B6066039D9BC345A952A.e.23}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54286}, goog:processID: 18416, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54286/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6710350aceb0ff6cf4ecc2712cbcbd22)] -> xpath: (//button[text()='Send OTP'])[2]]
+Session ID: 6710350aceb0ff6cf4ecc2712cbcbd22
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -622,55 +622,55 @@ Session ID: 6189d0a056d0a8241e553912a73e79ce
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:11:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:18:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:11:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:18:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_06_InvalidFormat" classname="tests.RegisterEmailTest" time="11.885">
-    <system-err><![CDATA[Feb 24, 2026 1:11:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="EM_06_InvalidFormat" classname="tests.RegisterEmailTest" time="12.548">
+    <system-err><![CDATA[Feb 24, 2026 2:18:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:11:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:18:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_07_MissingDot" classname="tests.RegisterEmailTest" time="7.547">
-    <system-err><![CDATA[Feb 24, 2026 1:11:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="EM_07_MissingDot" classname="tests.RegisterEmailTest" time="6.954">
+    <system-err><![CDATA[Feb 24, 2026 2:18:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:11:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:18:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_08_DoubleAt" classname="tests.RegisterEmailTest" time="6.425">
-    <system-err><![CDATA[Feb 24, 2026 1:11:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="EM_08_DoubleAt" classname="tests.RegisterEmailTest" time="6.953">
+    <system-err><![CDATA[Feb 24, 2026 2:18:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:11:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:18:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_09_LongEmail" classname="tests.RegisterEmailTest" time="6.621">
-    <system-err><![CDATA[Feb 24, 2026 1:12:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="EM_09_LongEmail" classname="tests.RegisterEmailTest" time="7.439">
+    <system-err><![CDATA[Feb 24, 2026 2:19:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:12:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:19:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="EM_10_NumericOnly" classname="tests.RegisterEmailTest" time="12.579">
-    <system-err><![CDATA[Feb 24, 2026 1:12:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="EM_10_NumericOnly" classname="tests.RegisterEmailTest" time="11.998">
+    <system-err><![CDATA[Feb 24, 2026 2:19:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:12:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:19:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_01_Empty" classname="tests.RegisterFirstNameTest" time="3.525">
-    <system-err><![CDATA[Feb 24, 2026 1:12:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FN_01_Empty" classname="tests.RegisterFirstNameTest" time="1.654">
+    <system-err><![CDATA[Feb 24, 2026 2:19:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:12:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:19:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_02_Numeric" classname="tests.RegisterFirstNameTest" time="7.322">
+  <testcase name="FN_02_Numeric" classname="tests.RegisterFirstNameTest" time="6.478">
     <failure message="Validation message should appear for invalid First Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid First Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -709,13 +709,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:12:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:19:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:12:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:19:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_03_Special" classname="tests.RegisterFirstNameTest" time="11.167">
+  <testcase name="FN_03_Special" classname="tests.RegisterFirstNameTest" time="7.363">
     <failure message="Validation message should appear for invalid First Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid First Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -754,13 +754,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:12:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:19:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:12:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:19:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_04_SingleChar" classname="tests.RegisterFirstNameTest" time="12.388">
+  <testcase name="FN_04_SingleChar" classname="tests.RegisterFirstNameTest" time="6.628">
     <failure message="Validation message should appear for invalid First Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid First Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -799,13 +799,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:13:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:20:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:13:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:20:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_05_AlphaNumeric" classname="tests.RegisterFirstNameTest" time="7.296">
+  <testcase name="FN_05_AlphaNumeric" classname="tests.RegisterFirstNameTest" time="6.501">
     <failure message="Validation message should appear for invalid First Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid First Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -844,13 +844,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:13:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:20:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:13:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:20:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_06_LongName" classname="tests.RegisterFirstNameTest" time="7.812">
+  <testcase name="FN_06_LongName" classname="tests.RegisterFirstNameTest" time="6.64">
     <failure message="Validation message should appear for invalid First Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid First Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -889,13 +889,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:13:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:20:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:13:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:20:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_07_Spaces" classname="tests.RegisterFirstNameTest" time="7.023">
+  <testcase name="FN_07_Spaces" classname="tests.RegisterFirstNameTest" time="7.053">
     <failure message="Validation message should appear for invalid First Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid First Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -934,13 +934,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:13:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:20:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:13:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:20:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_08_LeadingSpace" classname="tests.RegisterFirstNameTest" time="8.294">
+  <testcase name="FN_08_LeadingSpace" classname="tests.RegisterFirstNameTest" time="8.627">
     <failure message="Validation message should appear for invalid First Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid First Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -979,13 +979,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:14:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:21:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:14:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:21:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_09_TrailingSpace" classname="tests.RegisterFirstNameTest" time="7.463">
+  <testcase name="FN_09_TrailingSpace" classname="tests.RegisterFirstNameTest" time="6.956">
     <failure message="Validation message should appear for invalid First Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid First Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1024,20 +1024,20 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:14:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:21:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:14:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:21:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FN_10_Valid" classname="tests.RegisterFirstNameTest" time="7.597">
-    <system-err><![CDATA[Feb 24, 2026 1:14:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FN_10_Valid" classname="tests.RegisterFirstNameTest" time="7.304">
+    <system-err><![CDATA[Feb 24, 2026 2:21:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:14:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:21:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_01_NoTerms" classname="tests.RegisterFullFlowTest" time="15.468">
+  <testcase name="FF_01_NoTerms" classname="tests.RegisterFullFlowTest" time="11.902">
     <failure message="Validation should appear for invalid full flow expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation should appear for invalid full flow expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1076,27 +1076,27 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:14:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:21:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:14:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:21:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_02_ValidWithTerms" classname="tests.RegisterFullFlowTest" time="11.826">
-    <system-err><![CDATA[Feb 24, 2026 1:14:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FF_02_ValidWithTerms" classname="tests.RegisterFullFlowTest" time="11.815">
+    <system-err><![CDATA[Feb 24, 2026 2:21:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:14:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:21:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_03_InvalidMobile" classname="tests.RegisterFullFlowTest" time="6.442">
-    <system-err><![CDATA[Feb 24, 2026 1:15:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FF_03_InvalidMobile" classname="tests.RegisterFullFlowTest" time="7.08">
+    <system-err><![CDATA[Feb 24, 2026 2:22:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:15:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:22:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_04_InvalidEmail" classname="tests.RegisterFullFlowTest" time="13.355">
+  <testcase name="FF_04_InvalidEmail" classname="tests.RegisterFullFlowTest" time="13.977">
     <failure message="Validation should appear for invalid full flow expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation should appear for invalid full flow expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1135,62 +1135,62 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:15:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:22:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:15:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:22:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_05_MismatchPassword" classname="tests.RegisterFullFlowTest" time="8.305">
-    <system-err><![CDATA[Feb 24, 2026 1:15:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FF_05_MismatchPassword" classname="tests.RegisterFullFlowTest" time="7.066">
+    <system-err><![CDATA[Feb 24, 2026 2:22:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:15:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:22:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_06_AllFieldsEmpty" classname="tests.RegisterFullFlowTest" time="7.265">
-    <system-err><![CDATA[Feb 24, 2026 1:16:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FF_06_AllFieldsEmpty" classname="tests.RegisterFullFlowTest" time="6.828">
+    <system-err><![CDATA[Feb 24, 2026 2:23:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:16:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:23:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_07_OnlyNamesFilled" classname="tests.RegisterFullFlowTest" time="10.454">
-    <system-err><![CDATA[Feb 24, 2026 1:16:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FF_07_OnlyNamesFilled" classname="tests.RegisterFullFlowTest" time="7.081">
+    <system-err><![CDATA[Feb 24, 2026 2:23:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:16:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:23:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_08_OnlyMobileFilled" classname="tests.RegisterFullFlowTest" time="6.44">
-    <system-err><![CDATA[Feb 24, 2026 1:16:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FF_08_OnlyMobileFilled" classname="tests.RegisterFullFlowTest" time="6.869">
+    <system-err><![CDATA[Feb 24, 2026 2:23:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:16:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:23:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_09_DoubleSubmit" classname="tests.RegisterFullFlowTest" time="1.749">
-    <system-err><![CDATA[Feb 24, 2026 1:16:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FF_09_DoubleSubmit" classname="tests.RegisterFullFlowTest" time="3.477">
+    <system-err><![CDATA[Feb 24, 2026 2:23:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:16:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:23:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="FF_10_AllValidUnique" classname="tests.RegisterFullFlowTest" time="12.365">
-    <system-err><![CDATA[Feb 24, 2026 1:17:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="FF_10_AllValidUnique" classname="tests.RegisterFullFlowTest" time="13.007">
+    <system-err><![CDATA[Feb 24, 2026 2:23:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:17:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:23:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_01_Empty" classname="tests.RegisterLastNameTest" time="4.578">
-    <system-err><![CDATA[Feb 24, 2026 1:17:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="LN_01_Empty" classname="tests.RegisterLastNameTest" time="3.269">
+    <system-err><![CDATA[Feb 24, 2026 2:24:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:17:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:24:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_02_SingleChar" classname="tests.RegisterLastNameTest" time="8.058">
+  <testcase name="LN_02_SingleChar" classname="tests.RegisterLastNameTest" time="10.088">
     <failure message="Validation message should appear for invalid Last Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid Last Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1229,13 +1229,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:17:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:24:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:17:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:24:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_03_Numeric" classname="tests.RegisterLastNameTest" time="8.138">
+  <testcase name="LN_03_Numeric" classname="tests.RegisterLastNameTest" time="6.873">
     <failure message="Validation message should appear for invalid Last Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid Last Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1274,13 +1274,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:17:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:24:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:17:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:24:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_04_SpecialChar" classname="tests.RegisterLastNameTest" time="7.998">
+  <testcase name="LN_04_SpecialChar" classname="tests.RegisterLastNameTest" time="6.402">
     <failure message="Validation message should appear for invalid Last Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid Last Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1319,13 +1319,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:17:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:24:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:17:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:24:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_05_AlphaNumeric" classname="tests.RegisterLastNameTest" time="6.958">
+  <testcase name="LN_05_AlphaNumeric" classname="tests.RegisterLastNameTest" time="6.321">
     <failure message="Validation message should appear for invalid Last Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid Last Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1364,13 +1364,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:18:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:24:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:18:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:24:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_06_LongName" classname="tests.RegisterLastNameTest" time="6.358">
+  <testcase name="LN_06_LongName" classname="tests.RegisterLastNameTest" time="8.375">
     <failure message="Validation message should appear for invalid Last Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid Last Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1409,13 +1409,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:18:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:25:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:18:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:25:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_07_Spaces" classname="tests.RegisterLastNameTest" time="7.587">
+  <testcase name="LN_07_Spaces" classname="tests.RegisterLastNameTest" time="8.374">
     <failure message="Validation message should appear for invalid Last Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid Last Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1454,13 +1454,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:18:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:25:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:18:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:25:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_08_LeadingSpace" classname="tests.RegisterLastNameTest" time="8.08">
+  <testcase name="LN_08_LeadingSpace" classname="tests.RegisterLastNameTest" time="7.975">
     <failure message="Validation message should appear for invalid Last Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid Last Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1499,13 +1499,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:18:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:25:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:18:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:25:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_09_TrailingSpace" classname="tests.RegisterLastNameTest" time="6.558">
+  <testcase name="LN_09_TrailingSpace" classname="tests.RegisterLastNameTest" time="7.614">
     <failure message="Validation message should appear for invalid Last Name expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid Last Name expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1544,30 +1544,30 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:18:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:25:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:18:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:25:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="LN_10_Valid" classname="tests.RegisterLastNameTest" time="7.585">
-    <system-err><![CDATA[Feb 24, 2026 1:19:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="LN_10_Valid" classname="tests.RegisterLastNameTest" time="7.027">
+    <system-err><![CDATA[Feb 24, 2026 2:25:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:19:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:25:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_01_Empty" classname="tests.RegisterMobileTest" time="2.92">
-    <failure message="element click intercepted: Element &lt;button class=&quot;inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;amp;_svg]:pointer-events-none [&amp;amp;_svg]:size-4 [&amp;amp;_svg]:shrink-0 active:scale-[0.98] px-4 py-2 bg-blue-600 cursor-pointer hover:bg-blue-700 text-white whitespace-nowrap h-11&quot; type=&quot;button&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (1379, 282). Other element would receive the click: &lt;div class=&quot;flex gap-2 relative&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=145.0.7632.111)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [33f15b0e8ac1631b9ee5e233f7e5e72d, clickElement {id=f.8A3383AF2484B2B74C8533874694FF6F.d.C387DBAC8C44815C3726CFB431C1D7F8.e.22}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63481}, goog:processID: 42752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63481/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (33f15b0e8ac1631b9ee5e233f7e5e72d)] -&gt; xpath: (//button[text()=&apos;Send OTP&apos;])[1]]&#10;Session ID: 33f15b0e8ac1631b9ee5e233f7e5e72d" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+  <testcase name="MB_01_Empty" classname="tests.RegisterMobileTest" time="2.415">
+    <failure message="element click intercepted: Element &lt;button class=&quot;inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;amp;_svg]:pointer-events-none [&amp;amp;_svg]:size-4 [&amp;amp;_svg]:shrink-0 active:scale-[0.98] px-4 py-2 bg-blue-600 cursor-pointer hover:bg-blue-700 text-white whitespace-nowrap h-11&quot; type=&quot;button&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (1379, 282). Other element would receive the click: &lt;div class=&quot;flex gap-2 relative&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=145.0.7632.111)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [61b890c721d6dc2ef9900d4595b173a7, clickElement {id=f.5BBBC5261BF61CCAF0D804176DFF2E70.d.45DE76289558249DCA51D76D78BA06FF.e.22}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55959}, goog:processID: 65596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55959/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (61b890c721d6dc2ef9900d4595b173a7)] -&gt; xpath: (//button[text()=&apos;Send OTP&apos;])[1]]&#10;Session ID: 61b890c721d6dc2ef9900d4595b173a7" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
 element click intercepted: Element <button class="inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:scale-[0.98] px-4 py-2 bg-blue-600 cursor-pointer hover:bg-blue-700 text-white whitespace-nowrap h-11" type="button" disabled="">...</button> is not clickable at point (1379, 282). Other element would receive the click: <div class="flex gap-2 relative">...</div>
   (Session info: chrome=145.0.7632.111)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [33f15b0e8ac1631b9ee5e233f7e5e72d, clickElement {id=f.8A3383AF2484B2B74C8533874694FF6F.d.C387DBAC8C44815C3726CFB431C1D7F8.e.22}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63481}, goog:processID: 42752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63481/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (33f15b0e8ac1631b9ee5e233f7e5e72d)] -> xpath: (//button[text()='Send OTP'])[1]]
-Session ID: 33f15b0e8ac1631b9ee5e233f7e5e72d
+Command: [61b890c721d6dc2ef9900d4595b173a7, clickElement {id=f.5BBBC5261BF61CCAF0D804176DFF2E70.d.45DE76289558249DCA51D76D78BA06FF.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.111, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\YASH~1.DHI\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55959}, goog:processID: 65596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55959/devtoo..., se:cdpVersion: 145.0.7632.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (61b890c721d6dc2ef9900d4595b173a7)] -> xpath: (//button[text()='Send OTP'])[1]]
+Session ID: 61b890c721d6dc2ef9900d4595b173a7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -1615,27 +1615,65 @@ Session ID: 33f15b0e8ac1631b9ee5e233f7e5e72d
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:19:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:26:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:19:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:26:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_02_Short" classname="tests.RegisterMobileTest" time="8.095">
-    <system-err><![CDATA[Feb 24, 2026 1:19:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="MB_02_Short" classname="tests.RegisterMobileTest" time="6.791">
+    <system-err><![CDATA[Feb 24, 2026 2:26:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:19:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:26:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_03_Long" classname="tests.RegisterMobileTest" time="8.468">
-    <system-err><![CDATA[Feb 24, 2026 1:19:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="MB_03_Long" classname="tests.RegisterMobileTest" time="7.398">
+    <failure message="Validation message should appear for invalid mobile number expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid mobile number expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.RegisterMobileTest.executeNegative(RegisterMobileTest.java:113)
+	at tests.RegisterMobileTest.MB_03_Long(RegisterMobileTest.java:132)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Feb 24, 2026 2:26:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:19:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:26:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_04_Alphabet" classname="tests.RegisterMobileTest" time="8.827">
+  <testcase name="MB_04_Alphabet" classname="tests.RegisterMobileTest" time="8.697">
     <failure message="Validation message should appear for invalid mobile number expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid mobile number expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1674,13 +1712,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:19:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:26:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:19:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:26:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_05_Special" classname="tests.RegisterMobileTest" time="6.564">
+  <testcase name="MB_05_Special" classname="tests.RegisterMobileTest" time="6.3">
     <failure message="Validation message should appear for invalid mobile number expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid mobile number expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1719,13 +1757,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:20:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:27:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:20:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:27:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_06_Mixed" classname="tests.RegisterMobileTest" time="8.111">
+  <testcase name="MB_06_Mixed" classname="tests.RegisterMobileTest" time="7.684">
     <failure message="Validation message should appear for invalid mobile number expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid mobile number expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1764,55 +1802,131 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:20:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:27:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:20:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:27:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_07_Spaces" classname="tests.RegisterMobileTest" time="10.544">
-    <system-err><![CDATA[Feb 24, 2026 1:20:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="MB_07_Spaces" classname="tests.RegisterMobileTest" time="8.02">
+    <failure message="Validation message should appear for invalid mobile number expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid mobile number expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.RegisterMobileTest.executeNegative(RegisterMobileTest.java:113)
+	at tests.RegisterMobileTest.MB_07_Spaces(RegisterMobileTest.java:144)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Feb 24, 2026 2:27:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:20:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:27:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_08_LeadingSpace" classname="tests.RegisterMobileTest" time="13.286">
-    <system-err><![CDATA[Feb 24, 2026 1:20:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="MB_08_LeadingSpace" classname="tests.RegisterMobileTest" time="8.399">
+    <failure message="Validation message should appear for invalid mobile number expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid mobile number expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.RegisterMobileTest.executeNegative(RegisterMobileTest.java:113)
+	at tests.RegisterMobileTest.MB_08_LeadingSpace(RegisterMobileTest.java:147)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Feb 24, 2026 2:27:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:20:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:27:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_09_TrailingSpace" classname="tests.RegisterMobileTest" time="10.603">
-    <system-err><![CDATA[Feb 24, 2026 1:21:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="MB_09_TrailingSpace" classname="tests.RegisterMobileTest" time="8.551">
+    <system-err><![CDATA[Feb 24, 2026 2:27:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:21:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:27:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="MB_10_ValidFormat" classname="tests.RegisterMobileTest" time="4.688">
-    <system-err><![CDATA[Feb 24, 2026 1:21:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="MB_10_ValidFormat" classname="tests.RegisterMobileTest" time="2.434">
+    <system-err><![CDATA[Feb 24, 2026 2:28:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:21:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:28:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_01_Empty" classname="tests.RegisterPasswordTest" time="9.946">
-    <system-err><![CDATA[Feb 24, 2026 1:21:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="PW_01_Empty" classname="tests.RegisterPasswordTest" time="6.932">
+    <system-err><![CDATA[Feb 24, 2026 2:28:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:21:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:28:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_02_Short" classname="tests.RegisterPasswordTest" time="8.392">
-    <system-err><![CDATA[Feb 24, 2026 1:21:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="PW_02_Short" classname="tests.RegisterPasswordTest" time="6.488">
+    <system-err><![CDATA[Feb 24, 2026 2:28:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:21:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:28:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_03_NoUppercase" classname="tests.RegisterPasswordTest" time="14.077">
+  <testcase name="PW_03_NoUppercase" classname="tests.RegisterPasswordTest" time="11.344">
     <failure message="Validation message should appear for invalid password expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid password expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1851,13 +1965,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:22:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:28:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:22:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:28:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_04_NoLowercase" classname="tests.RegisterPasswordTest" time="14.474">
+  <testcase name="PW_04_NoLowercase" classname="tests.RegisterPasswordTest" time="11.45">
     <failure message="Validation message should appear for invalid password expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid password expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1896,13 +2010,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:22:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:28:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:22:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:28:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_05_NoNumber" classname="tests.RegisterPasswordTest" time="11.99">
+  <testcase name="PW_05_NoNumber" classname="tests.RegisterPasswordTest" time="19.139">
     <failure message="Validation message should appear for invalid password expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid password expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1941,13 +2055,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:22:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:29:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:22:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:29:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_06_NoSpecialChar" classname="tests.RegisterPasswordTest" time="11.599">
+  <testcase name="PW_06_NoSpecialChar" classname="tests.RegisterPasswordTest" time="12.041">
     <failure message="Validation message should appear for invalid password expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid password expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1986,20 +2100,20 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:23:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:29:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:23:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:29:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_07_Mismatch" classname="tests.RegisterPasswordTest" time="6.365">
-    <system-err><![CDATA[Feb 24, 2026 1:23:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="PW_07_Mismatch" classname="tests.RegisterPasswordTest" time="6.756">
+    <system-err><![CDATA[Feb 24, 2026 2:29:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:23:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:29:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_08_OnlyNumbers" classname="tests.RegisterPasswordTest" time="12.271">
+  <testcase name="PW_08_OnlyNumbers" classname="tests.RegisterPasswordTest" time="11.863">
     <failure message="Validation message should appear for invalid password expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid password expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -2038,13 +2152,13 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:23:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:30:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:23:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:30:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_09_OnlyLetters" classname="tests.RegisterPasswordTest" time="14.427">
+  <testcase name="PW_09_OnlyLetters" classname="tests.RegisterPasswordTest" time="12.281">
     <failure message="Validation message should appear for invalid password expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation message should appear for invalid password expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -2083,16 +2197,16 @@ WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Feb 24, 2026 1:23:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 24, 2026 2:30:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:23:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:30:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PW_10_Valid" classname="tests.RegisterPasswordTest" time="6.303">
-    <system-err><![CDATA[Feb 24, 2026 1:24:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="PW_10_Valid" classname="tests.RegisterPasswordTest" time="6.847">
+    <system-err><![CDATA[Feb 24, 2026 2:30:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 24, 2026 1:24:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 24, 2026 2:30:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

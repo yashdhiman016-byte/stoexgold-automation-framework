@@ -100,7 +100,7 @@ public class RegisterFullFlowTest extends BaseTest {
                 toast.isEmpty() ? "No Toast Error" : toast);
 
         // -------- ASSERT --------
-        // If invalid combination → errors must appear
+        // If invalid combination -> errors must appear
         if (!acceptTerms ||
                 fn.isEmpty() ||
                 ln.isEmpty() ||
@@ -121,59 +121,59 @@ public class RegisterFullFlowTest extends BaseTest {
     // FULL FLOW TEST CASES (10 REAL)
     // ==================================
 
-    @Test(description = "No Terms Accepted")
+    @Test(description = "Validates the No Terms scenario to confirm the expected application behavior for this input combination.")
     public void FF_01_NoTerms() {
         executeFlow("Yash", "Dhiman", "9876543210",
                 TestDataGenerator.generateUniqueEmail(),
                 "Valid@1234", "Valid@1234", false);
     }
 
-    @Test(description = "Valid With Terms")
+    @Test(description = "Validates the Valid With Terms scenario to confirm the expected application behavior for this input combination.")
     public void FF_02_ValidWithTerms() {
         executeFlow("Yash", "Dhiman", "9876543210",
                 TestDataGenerator.generateUniqueEmail(),
                 "Valid@1234", "Valid@1234", true);
     }
 
-    @Test(description = "Invalid Mobile")
+    @Test(description = "Validates the Invalid Mobile scenario to confirm the expected application behavior for this input combination.")
     public void FF_03_InvalidMobile() {
         executeFlow("Yash", "Dhiman", "123",
                 TestDataGenerator.generateUniqueEmail(),
                 "Valid@1234", "Valid@1234", true);
     }
 
-    @Test(description = "Invalid Email")
+    @Test(description = "Validates the Invalid Email scenario to confirm the expected application behavior for this input combination.")
     public void FF_04_InvalidEmail() {
         executeFlow("Yash", "Dhiman", "9876543210",
                 "invalidemail",
                 "Valid@1234", "Valid@1234", true);
     }
 
-    @Test(description = "Password Mismatch")
+    @Test(description = "Validates the Mismatch Password scenario to confirm the expected application behavior for this input combination.")
     public void FF_05_MismatchPassword() {
         executeFlow("Yash", "Dhiman", "9876543210",
                 TestDataGenerator.generateUniqueEmail(),
                 "Valid@1234", "Wrong@1234", true);
     }
 
-    @Test(description = "All Fields Empty")
+    @Test(description = "Validates the All Fields Empty scenario to confirm the expected application behavior for this input combination.")
     public void FF_06_AllFieldsEmpty() {
         executeFlow("", "", "", "", "", "", false);
     }
 
-    @Test(description = "Only Names Filled")
+    @Test(description = "Validates the Only Names Filled scenario to confirm the expected application behavior for this input combination.")
     public void FF_07_OnlyNamesFilled() {
         executeFlow("Yash", "Dhiman", "",
                 "", "", "", false);
     }
 
-    @Test(description = "Only Mobile Filled")
+    @Test(description = "Validates the Only Mobile Filled scenario to confirm the expected application behavior for this input combination.")
     public void FF_08_OnlyMobileFilled() {
         executeFlow("", "", "9876543210",
                 "", "", "", false);
     }
 
-    @Test(description = "Double Click Submit")
+    @Test(description = "Validates the Double Submit scenario to confirm the expected application behavior for this input combination.")
     public void FF_09_DoubleSubmit() {
 
         driver.get(URL);
@@ -192,7 +192,7 @@ public class RegisterFullFlowTest extends BaseTest {
         Assert.assertTrue(true);
     }
 
-    @Test(description = "All Valid Unique")
+    @Test(description = "Validates the All Valid Unique scenario to confirm the expected application behavior for this input combination.")
     @Severity(SeverityLevel.BLOCKER)
     public void FF_10_AllValidUnique() {
         executeFlow("Yash", "Dhiman", "9876543210",

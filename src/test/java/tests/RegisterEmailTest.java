@@ -121,52 +121,52 @@ public class RegisterEmailTest extends BaseTest {
     // TEST CASES (10 SAMPLE)
     // ==============================
 
-    @Test(description = "Empty Email")
+    @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void EM_01_Empty() {
         executeEmailTest("");
     }
 
-    @Test(description = "Missing @ Symbol")
+    @Test(description = "Validates the No At scenario to confirm the expected application behavior for this input combination.")
     public void EM_02_NoAt() {
         executeEmailTest("testmail.com");
     }
 
-    @Test(description = "Missing Domain")
+    @Test(description = "Validates the No Domain scenario to confirm the expected application behavior for this input combination.")
     public void EM_03_NoDomain() {
         executeEmailTest("test@");
     }
 
-    @Test(description = "Special Characters Only")
+    @Test(description = "Validates the Special Char scenario to confirm the expected application behavior for this input combination.")
     public void EM_04_SpecialChar() {
         executeEmailTest("@@@@");
     }
 
-    @Test(description = "Only Spaces")
+    @Test(description = "Validates the Spaces scenario to confirm the expected application behavior for this input combination.")
     public void EM_05_Spaces() {
         executeEmailTest("     ");
     }
 
-    @Test(description = "Random Invalid Format")
+    @Test(description = "Validates the Invalid Format scenario to confirm the expected application behavior for this input combination.")
     public void EM_06_InvalidFormat() {
         executeEmailTest("hjhj");
     }
 
-    @Test(description = "Missing Dot")
+    @Test(description = "Validates the Missing Dot scenario to confirm the expected application behavior for this input combination.")
     public void EM_07_MissingDot() {
         executeEmailTest("test@mailcom");
     }
 
-    @Test(description = "Double @")
+    @Test(description = "Validates the Double At scenario to confirm the expected application behavior for this input combination.")
     public void EM_08_DoubleAt() {
         executeEmailTest("test@@mail.com");
     }
 
-    @Test(description = "Very Long Email")
+    @Test(description = "Validates the Long Email scenario to confirm the expected application behavior for this input combination.")
     public void EM_09_LongEmail() {
         executeEmailTest("veryveryverylongemailtestingaddress@mail.com");
     }
 
-    @Test(description = "Numeric Only")
+    @Test(description = "Validates the Numeric Only scenario to confirm the expected application behavior for this input combination.")
     public void EM_10_NumericOnly() {
         executeEmailTest("123456");
     }

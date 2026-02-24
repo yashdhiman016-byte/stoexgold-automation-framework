@@ -23,8 +23,8 @@
           <include name="FN_02_Numeric"/>
           <include name="FN_06_LongName"/>
           <include name="FN_05_AlphaNumeric"/>
-          <include name="FN_03_Special"/>
           <include name="FN_09_TrailingSpace"/>
+          <include name="FN_03_Special"/>
           <include name="FN_04_SingleChar"/>
           <include name="FN_07_Spaces"/>
         </methods>
@@ -72,6 +72,9 @@
           <include name="tearDown"/>
           <include name="MB_01_Empty"/>
           <include name="MB_05_Special"/>
+          <include name="MB_07_Spaces"/>
+          <include name="MB_03_Long"/>
+          <include name="MB_08_LeadingSpace"/>
           <include name="MB_06_Mixed"/>
           <include name="MB_04_Alphabet"/>
         </methods>

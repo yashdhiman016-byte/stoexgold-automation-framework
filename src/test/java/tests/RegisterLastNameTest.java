@@ -116,40 +116,40 @@ public class RegisterLastNameTest extends BaseTest {
     // NEGATIVE TEST CASES
     // ======================================
 
-    @Test(description = "Empty Last Name")
+    @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void LN_01_Empty() { executeNegative(""); }
 
-    @Test(description = "Single Character")
+    @Test(description = "Validates the Single Char scenario to confirm the expected application behavior for this input combination.")
     public void LN_02_SingleChar() { executeNegative("D"); }
 
-    @Test(description = "Numeric Only")
+    @Test(description = "Validates the Numeric scenario to confirm the expected application behavior for this input combination.")
     public void LN_03_Numeric() { executeNegative("1234"); }
 
-    @Test(description = "Special Characters")
+    @Test(description = "Validates the Special Char scenario to confirm the expected application behavior for this input combination.")
     public void LN_04_SpecialChar() { executeNegative("@@@"); }
 
-    @Test(description = "Alpha Numeric")
+    @Test(description = "Validates the Alpha Numeric scenario to confirm the expected application behavior for this input combination.")
     public void LN_05_AlphaNumeric() { executeNegative("Dhiman123"); }
 
-    @Test(description = "Very Long Name")
+    @Test(description = "Validates the Long Name scenario to confirm the expected application behavior for this input combination.")
     public void LN_06_LongName() {
         executeNegative("VeryLongLastNameTestVeryLongLastNameTestVeryLongLastNameTest");
     }
 
-    @Test(description = "Only Spaces")
+    @Test(description = "Validates the Spaces scenario to confirm the expected application behavior for this input combination.")
     public void LN_07_Spaces() { executeNegative("    "); }
 
-    @Test(description = "Leading Space")
+    @Test(description = "Validates the Leading Space scenario to confirm the expected application behavior for this input combination.")
     public void LN_08_LeadingSpace() { executeNegative(" Dhiman"); }
 
-    @Test(description = "Trailing Space")
+    @Test(description = "Validates the Trailing Space scenario to confirm the expected application behavior for this input combination.")
     public void LN_09_TrailingSpace() { executeNegative("Dhiman "); }
 
     // ======================================
     // POSITIVE TEST
     // ======================================
 
-    @Test(description = "Valid Last Name")
+    @Test(description = "Validates the Valid scenario to confirm the expected application behavior for this input combination.")
     @Severity(SeverityLevel.CRITICAL)
     public void LN_10_Valid() {
 

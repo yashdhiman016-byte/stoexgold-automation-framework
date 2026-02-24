@@ -20,7 +20,7 @@ public class LoginValidationTest extends BaseTest {
     // EMAIL LOGIN VALIDATIONS (18 TESTS)
     // ====================================================
 
-    @Test
+    @Test(description = "Validates the Email Empty Both Fields scenario to confirm the expected application behavior for this input combination.")
     public void email_empty_both_fields() {
         driver.get(URL);
         LoginPage login = new LoginPage(driver);
@@ -36,87 +36,87 @@ public class LoginValidationTest extends BaseTest {
         attachInlineErrors(login);
     }
 
-    @Test
+    @Test(description = "Validates the Email Invalid Format Simple scenario to confirm the expected application behavior for this input combination.")
     public void email_invalid_format_simple() {
         executeEmailTest("abc", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Missing At Symbol scenario to confirm the expected application behavior for this input combination.")
     public void email_missing_at_symbol() {
         executeEmailTest("yashmail.com", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Missing Domain scenario to confirm the expected application behavior for this input combination.")
     public void email_missing_domain() {
         executeEmailTest("yash@", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Special Chars scenario to confirm the expected application behavior for this input combination.")
     public void email_special_chars() {
         executeEmailTest("@@@@", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Numeric Only scenario to confirm the expected application behavior for this input combination.")
     public void email_numeric_only() {
         executeEmailTest("123456", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Spaces Only scenario to confirm the expected application behavior for this input combination.")
     public void email_spaces_only() {
         executeEmailTest("     ", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Sql Injection scenario to confirm the expected application behavior for this input combination.")
     public void email_sql_injection() {
         executeEmailTest("' OR 1=1 --", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Script Injection scenario to confirm the expected application behavior for this input combination.")
     public void email_script_injection() {
         executeEmailTest("<script>alert(1)</script>", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Long String scenario to confirm the expected application behavior for this input combination.")
     public void email_long_string() {
         executeEmailTest("verylongemailverylongemailverylong@test.com", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Uppercase scenario to confirm the expected application behavior for this input combination.")
     public void email_uppercase() {
         executeEmailTest("TEST@MAIL.COM", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Leading Space scenario to confirm the expected application behavior for this input combination.")
     public void email_leading_space() {
         executeEmailTest(" test@mail.com", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Email Trailing Space scenario to confirm the expected application behavior for this input combination.")
     public void email_trailing_space() {
         executeEmailTest("test@mail.com ", "Valid@1234");
     }
 
-    @Test
+    @Test(description = "Validates the Password Empty scenario to confirm the expected application behavior for this input combination.")
     public void password_empty() {
         executeEmailTest("test@mail.com", "");
     }
 
-    @Test
+    @Test(description = "Validates the Password Less Than 8 scenario to confirm the expected application behavior for this input combination.")
     public void password_less_than_8() {
         executeEmailTest("test@mail.com", "123");
     }
 
-    @Test
+    @Test(description = "Validates the Password Only Numbers scenario to confirm the expected application behavior for this input combination.")
     public void password_only_numbers() {
         executeEmailTest("test@mail.com", "12345678");
     }
 
-    @Test
+    @Test(description = "Validates the Password Only Letters scenario to confirm the expected application behavior for this input combination.")
     public void password_only_letters() {
         executeEmailTest("test@mail.com", "password");
     }
 
-    @Test
+    @Test(description = "Validates the Password Special Chars Only scenario to confirm the expected application behavior for this input combination.")
     public void password_special_chars_only() {
         executeEmailTest("test@mail.com", "@@@@@@@@");
     }
@@ -125,72 +125,72 @@ public class LoginValidationTest extends BaseTest {
     // MOBILE LOGIN VALIDATIONS (14 TESTS)
     // ====================================================
 
-    @Test
+    @Test(description = "Validates the Mobile Empty scenario to confirm the expected application behavior for this input combination.")
     public void mobile_empty() {
         executeMobileTest("");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Short Number scenario to confirm the expected application behavior for this input combination.")
     public void mobile_short_number() {
         executeMobileTest("12345");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Long Number scenario to confirm the expected application behavior for this input combination.")
     public void mobile_long_number() {
         executeMobileTest("1234567890123");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Alphabets scenario to confirm the expected application behavior for this input combination.")
     public void mobile_alphabets() {
         executeMobileTest("abcdefghij");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Special Chars scenario to confirm the expected application behavior for this input combination.")
     public void mobile_special_chars() {
         executeMobileTest("@@@@@@");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Mixed Chars scenario to confirm the expected application behavior for this input combination.")
     public void mobile_mixed_chars() {
         executeMobileTest("98765abcde");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Spaces scenario to confirm the expected application behavior for this input combination.")
     public void mobile_spaces() {
         executeMobileTest("     ");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile With Plus scenario to confirm the expected application behavior for this input combination.")
     public void mobile_with_plus() {
         executeMobileTest("+919876543210");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile 9 Digits scenario to confirm the expected application behavior for this input combination.")
     public void mobile_9_digits() {
         executeMobileTest("987654321");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile 11 Digits scenario to confirm the expected application behavior for this input combination.")
     public void mobile_11_digits() {
         executeMobileTest("98765432101");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Sql Injection scenario to confirm the expected application behavior for this input combination.")
     public void mobile_sql_injection() {
         executeMobileTest("' OR 1=1 --");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Script Injection scenario to confirm the expected application behavior for this input combination.")
     public void mobile_script_injection() {
         executeMobileTest("<script>alert(1)</script>");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Valid Format But Unregistered scenario to confirm the expected application behavior for this input combination.")
     public void mobile_valid_format_but_unregistered() {
         executeMobileTest("9999999999");
     }
 
-    @Test
+    @Test(description = "Validates the Mobile Rapid Click scenario to confirm the expected application behavior for this input combination.")
     public void mobile_rapid_click() {
         driver.get(URL);
         LoginPage login = new LoginPage(driver);

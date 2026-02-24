@@ -121,47 +121,47 @@ public class RegisterPasswordTest extends BaseTest {
     // NEGATIVE TEST CASES
     // ============================================
 
-    @Test(description = "Empty Password")
+    @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void PW_01_Empty() {
         executeNegative("", "");
     }
 
-    @Test(description = "Too Short")
+    @Test(description = "Validates the Short scenario to confirm the expected application behavior for this input combination.")
     public void PW_02_Short() {
         executeNegative("123", "123");
     }
 
-    @Test(description = "No Uppercase")
+    @Test(description = "Validates the No Uppercase scenario to confirm the expected application behavior for this input combination.")
     public void PW_03_NoUppercase() {
         executeNegative("password1@", "password1@");
     }
 
-    @Test(description = "No Lowercase")
+    @Test(description = "Validates the No Lowercase scenario to confirm the expected application behavior for this input combination.")
     public void PW_04_NoLowercase() {
         executeNegative("PASSWORD1@", "PASSWORD1@");
     }
 
-    @Test(description = "No Number")
+    @Test(description = "Validates the No Number scenario to confirm the expected application behavior for this input combination.")
     public void PW_05_NoNumber() {
         executeNegative("Password@", "Password@");
     }
 
-    @Test(description = "No Special Character")
+    @Test(description = "Validates the No Special Char scenario to confirm the expected application behavior for this input combination.")
     public void PW_06_NoSpecialChar() {
         executeNegative("Password1", "Password1");
     }
 
-    @Test(description = "Mismatch Password")
+    @Test(description = "Validates the Mismatch scenario to confirm the expected application behavior for this input combination.")
     public void PW_07_Mismatch() {
         executeNegative("Valid@1234", "Invalid@1234");
     }
 
-    @Test(description = "Only Numbers")
+    @Test(description = "Validates the Only Numbers scenario to confirm the expected application behavior for this input combination.")
     public void PW_08_OnlyNumbers() {
         executeNegative("12345678", "12345678");
     }
 
-    @Test(description = "Only Letters")
+    @Test(description = "Validates the Only Letters scenario to confirm the expected application behavior for this input combination.")
     public void PW_09_OnlyLetters() {
         executeNegative("abcdefgh", "abcdefgh");
     }
@@ -170,7 +170,7 @@ public class RegisterPasswordTest extends BaseTest {
     // POSITIVE TEST CASE
     // ============================================
 
-    @Test(description = "Valid Password")
+    @Test(description = "Validates the Valid scenario to confirm the expected application behavior for this input combination.")
     @Severity(SeverityLevel.CRITICAL)
     public void PW_10_Valid() {
 
