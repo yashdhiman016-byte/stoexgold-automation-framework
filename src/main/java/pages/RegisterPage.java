@@ -1,42 +1,43 @@
 package pages;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import utils.WaitUtils;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Page object for registration form interactions and validation capture.
+ */
 public class RegisterPage {
 
-    WebDriver driver;
+    private final WebDriver driver;
 
     public RegisterPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    // ================= LOCATORS =================
+    private final By firstName = By.name("firstName");
+    private final By lastName = By.name("lastName");
+    private final By mobile = By.name("contactNumber");
+    private final By email = By.name("email");
+    private final By password = By.name("password");
+    private final By confirmPassword = By.name("confirmPassword");
 
-    By firstName = By.name("firstName");
-    By lastName = By.name("lastName");
-    By mobile = By.name("contactNumber");
-    By email = By.name("email");
-    By password = By.name("password");
-    By confirmPassword = By.name("confirmPassword");
+    private final By checkbox = By.cssSelector("input[type='checkbox']");
+    private final By submit = By.xpath("//button[text()='Submit']");
 
-    By checkbox = By.cssSelector("input[type='checkbox']");
-    By submit = By.xpath("//button[text()='Submit']");
+    private final By mobileSendOtp = By.xpath("(//button[text()='Send OTP'])[1]");
+    private final By emailSendOtp = By.xpath("(//button[text()='Send OTP'])[2]");
 
-    // OTP Buttons
-    By mobileSendOtp = By.xpath("(//button[text()='Send OTP'])[1]");
-    By emailSendOtp = By.xpath("(//button[text()='Send OTP'])[2]");
+    private final By errorMessages = By.xpath("//p[@data-slot='form-message']");
+    private final By mobileToastError = By.cssSelector("div[data-title]");
 
-    // Validation Errors
-    By errorMessages = By.xpath("//p[@data-slot='form-message']");
-//    By mobileToastError = By.xpath("//div[@data-title]");
-    By mobileToastError = By.cssSelector("div[data-title]");
-
-    // ================= ACTIONS =================
-
+    /**
+     * Fills all registration fields with provided values.
+     */
     public void enterDetails(String fn, String ln, String mob,
                              String em, String pass, String confirm) {
 
@@ -75,12 +76,8 @@ public class RegisterPage {
         driver.findElement(emailSendOtp).click();
     }
 
-    // ================= ERROR CAPTURE =================
-
     public List<String> getAllErrors() {
-        List<WebElement> errors = driver.findElements(errorMessages);
-
-        return errors.stream()
+        return driver.findElements(errorMessages).stream()
                 .map(WebElement::getText)
                 .filter(text -> !text.isEmpty())
                 .collect(Collectors.toList());

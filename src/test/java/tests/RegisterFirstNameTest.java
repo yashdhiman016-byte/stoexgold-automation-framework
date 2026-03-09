@@ -1,55 +1,3 @@
-//package tests;
-//
-//import base.BaseTest;
-//import io.qameta.allure.Allure;
-//import io.qameta.allure.Step;
-//import org.testng.Assert;
-//import org.testng.annotations.Test;
-//import pages.RegisterPage;
-//
-//import java.util.List;
-//
-//public class RegisterFirstNameTest extends BaseTest {
-//
-//    private static final String URL =
-//            "https://dev-stoex-website.p2eppl.com/auth/register";
-//
-//    private void runTest(String value) {
-//        driver.get(URL);
-//        RegisterPage register = new RegisterPage(driver);
-//
-//        log("First Name", value);
-//
-//        register.enterDetails(value, "Dhiman",
-//                "9876543210", "test@mail.com",
-//                "Valid@1234", "Valid@1234");
-//
-//        register.clickSubmit();
-//
-//        List<String> errors = register.getAllErrors();
-//        Allure.addAttachment("Errors", errors.toString());
-//
-//        Assert.assertTrue(errors.size() > 0);
-//    }
-//
-//    @Test public void FN_01_Empty() { runTest(""); }
-//    @Test public void FN_02_Numeric() { runTest("1234"); }
-//    @Test public void FN_03_Special() { runTest("@@@"); }
-//    @Test public void FN_04_SingleChar() { runTest("A"); }
-//    @Test public void FN_05_AlphaNumeric() { runTest("Yash123"); }
-//    @Test public void FN_06_LongName() { runTest("VeryLongNameTestingField"); }
-//    @Test public void FN_07_Spaces() { runTest("     "); }
-//    @Test public void FN_08_LeadingSpace() { runTest(" Yash"); }
-//    @Test public void FN_09_TrailingSpace() { runTest("Yash "); }
-//    @Test public void FN_10_Valid() { Assert.assertTrue(true); }
-//
-//    @Step("{key}: {value}")
-//    public void log(String key, String value) {
-//        Allure.parameter(key, value);
-//    }
-//}
-
-
 package tests;
 
 import base.BaseTest;
@@ -68,9 +16,7 @@ public class RegisterFirstNameTest extends BaseTest {
     private static final String URL =
             "https://dev-stoex-website.p2eppl.com/auth/register";
 
-    // ==========================================
     // COMMON EXECUTION METHOD
-    // ==========================================
 
     private void runNegativeTest(String value) {
 
@@ -111,9 +57,7 @@ public class RegisterFirstNameTest extends BaseTest {
         );
     }
 
-    // ==========================================
     // NEGATIVE TEST CASES
-    // ==========================================
 
     @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void FN_01_Empty() { runNegativeTest(""); }
@@ -142,9 +86,7 @@ public class RegisterFirstNameTest extends BaseTest {
     @Test(description = "Validates the Trailing Space scenario to confirm the expected application behavior for this input combination.")
     public void FN_09_TrailingSpace() { runNegativeTest("Yash "); }
 
-    // ==========================================
     // POSITIVE TEST
-    // ==========================================
 
     @Test(description = "Validates the Valid scenario to confirm the expected application behavior for this input combination.")
     @Severity(SeverityLevel.CRITICAL)

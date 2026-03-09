@@ -1,56 +1,3 @@
-//package tests;
-//
-//import base.BaseTest;
-//import io.qameta.allure.Allure;
-//import io.qameta.allure.Step;
-//import org.testng.Assert;
-//import org.testng.annotations.Test;
-//import pages.RegisterPage;
-//
-//import java.util.List;
-//
-//public class RegisterPasswordTest extends BaseTest {
-//
-//    private static final String URL = "https://dev-stoex-website.p2eppl.com/auth/register";
-//
-//    private void executePasswordTest(String pass, String confirm) {
-//        driver.get(URL);
-//        RegisterPage register = new RegisterPage(driver);
-//
-//        log("Password", pass);
-//        log("Confirm", confirm);
-//
-//        register.enterDetails("Yash", "Dhiman",
-//                "9876543210", "test@mail.com",
-//                pass, confirm);
-//
-//        register.clickSubmit();
-//
-//        List<String> errors = register.getAllErrors();
-//        Allure.addAttachment("Password Errors", errors.toString());
-//
-//        Assert.assertTrue(errors.size() > 0);
-//    }
-//
-//    @Test public void PW_01_Empty() { executePasswordTest("", ""); }
-//    @Test public void PW_02_Short() { executePasswordTest("123", "123"); }
-//    @Test public void PW_03_NoUppercase() { executePasswordTest("password1@", "password1@"); }
-//    @Test public void PW_04_NoLowercase() { executePasswordTest("PASSWORD1@", "PASSWORD1@"); }
-//    @Test public void PW_05_NoNumber() { executePasswordTest("Password@", "Password@"); }
-//    @Test public void PW_06_NoSpecialChar() { executePasswordTest("Password1", "Password1"); }
-//    @Test public void PW_07_Mismatch() { executePasswordTest("Valid@1234", "Invalid@1234"); }
-//    @Test public void PW_08_OnlyNumbers() { executePasswordTest("12345678", "12345678"); }
-//    @Test public void PW_09_OnlyLetters() { executePasswordTest("abcdefgh", "abcdefgh"); }
-//    @Test public void PW_10_Valid() { Assert.assertTrue(true); }
-//
-//    @Step("{key}: {value}")
-//    public void log(String key, String value) {
-//        Allure.parameter(key, value);
-//    }
-//}
-
-
-
 package tests;
 
 import base.BaseTest;
@@ -69,9 +16,7 @@ public class RegisterPasswordTest extends BaseTest {
     private static final String URL =
             "https://dev-stoex-website.p2eppl.com/auth/register";
 
-    // ============================================
     // NEGATIVE EXECUTION METHOD
-    // ============================================
 
     private void executeNegative(String password, String confirmPassword) {
 
@@ -117,9 +62,7 @@ public class RegisterPasswordTest extends BaseTest {
         );
     }
 
-    // ============================================
     // NEGATIVE TEST CASES
-    // ============================================
 
     @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void PW_01_Empty() {
@@ -166,9 +109,7 @@ public class RegisterPasswordTest extends BaseTest {
         executeNegative("abcdefgh", "abcdefgh");
     }
 
-    // ============================================
     // POSITIVE TEST CASE
-    // ============================================
 
     @Test(description = "Validates the Valid scenario to confirm the expected application behavior for this input combination.")
     @Severity(SeverityLevel.CRITICAL)

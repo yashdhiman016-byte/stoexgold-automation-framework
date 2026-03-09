@@ -16,9 +16,7 @@ public class LoginValidationTest extends BaseTest {
     private static final String URL =
             "https://dev-stoex-website.p2eppl.com/auth/signin";
 
-    // ====================================================
     // EMAIL LOGIN VALIDATIONS (18 TESTS)
-    // ====================================================
 
     @Test(description = "Validates the Email Empty Both Fields scenario to confirm the expected application behavior for this input combination.")
     public void email_empty_both_fields() {
@@ -121,9 +119,7 @@ public class LoginValidationTest extends BaseTest {
         executeEmailTest("test@mail.com", "@@@@@@@@");
     }
 
-    // ====================================================
     // MOBILE LOGIN VALIDATIONS (14 TESTS)
-    // ====================================================
 
     @Test(description = "Validates the Mobile Empty scenario to confirm the expected application behavior for this input combination.")
     public void mobile_empty() {
@@ -208,9 +204,7 @@ public class LoginValidationTest extends BaseTest {
         Allure.addAttachment("Toast Error", toast);
     }
 
-    // ====================================================
     // COMMON EXECUTION METHODS
-    // ====================================================
 
     private void executeEmailTest(String email, String password) {
 

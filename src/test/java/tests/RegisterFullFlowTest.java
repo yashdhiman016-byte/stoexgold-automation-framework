@@ -1,49 +1,3 @@
-//package tests;
-//
-//import base.BaseTest;
-//import io.qameta.allure.Allure;
-//import org.testng.Assert;
-//import org.testng.annotations.Test;
-//import pages.RegisterPage;
-//import utils.TestDataGenerator;
-//
-//public class RegisterFullFlowTest extends BaseTest {
-//
-//    private static final String URL = "https://dev-stoex-website.p2eppl.com/auth/register";
-//
-//    @Test
-//    public void FF_01_NoTerms() {
-//        driver.get(URL);
-//        RegisterPage register = new RegisterPage(driver);
-//        register.enterDetails("Yash", "Dhiman",
-//                "9876543210", TestDataGenerator.generateUniqueEmail(),
-//                "Valid@1234", "Valid@1234");
-//        register.clickSubmit();
-//        Assert.assertTrue(true);
-//    }
-//
-//    @Test
-//    public void FF_02_ValidWithTerms() {
-//        driver.get(URL);
-//        RegisterPage register = new RegisterPage(driver);
-//        register.enterDetails("Yash", "Dhiman",
-//                "9876543210", TestDataGenerator.generateUniqueEmail(),
-//                "Valid@1234", "Valid@1234");
-//        register.acceptTerms();
-//        register.clickSubmit();
-//        Assert.assertTrue(true);
-//    }
-//
-//    @Test public void FF_03_DoubleClickSubmit() { Assert.assertTrue(true); }
-//    @Test public void FF_04_InvalidMobileValidOthers() { Assert.assertTrue(true); }
-//    @Test public void FF_05_InvalidEmailValidOthers() { Assert.assertTrue(true); }
-//    @Test public void FF_06_MismatchPasswordValidOthers() { Assert.assertTrue(true); }
-//    @Test public void FF_07_AllFieldsEmpty() { Assert.assertTrue(true); }
-//    @Test public void FF_08_OnlyNamesFilled() { Assert.assertTrue(true); }
-//    @Test public void FF_09_OnlyMobileFilled() { Assert.assertTrue(true); }
-//    @Test public void FF_10_AllValidUnique() { Assert.assertTrue(true); }
-//}
-
 package tests;
 
 import base.BaseTest;
@@ -62,9 +16,7 @@ public class RegisterFullFlowTest extends BaseTest {
     private static final String URL =
             "https://dev-stoex-website.p2eppl.com/auth/register";
 
-    // ================================
     // COMMON EXECUTION METHOD
-    // ================================
 
     private void executeFlow(String fn, String ln, String mob,
                              String email, String pass, String confirm,
@@ -117,9 +69,7 @@ public class RegisterFullFlowTest extends BaseTest {
         }
     }
 
-    // ==================================
     // FULL FLOW TEST CASES (10 REAL)
-    // ==================================
 
     @Test(description = "Validates the No Terms scenario to confirm the expected application behavior for this input combination.")
     public void FF_01_NoTerms() {

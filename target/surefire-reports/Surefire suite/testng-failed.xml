@@ -5,24 +5,30 @@
     <classes>
       <class name="tests.RegisterPasswordTest">
         <methods>
+          <include name="PW_10_Valid"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="PW_07_Mismatch"/>
+          <include name="PW_01_Empty"/>
           <include name="PW_09_OnlyLetters"/>
           <include name="PW_03_NoUppercase"/>
           <include name="PW_06_NoSpecialChar"/>
           <include name="PW_04_NoLowercase"/>
           <include name="PW_08_OnlyNumbers"/>
+          <include name="PW_02_Short"/>
           <include name="PW_05_NoNumber"/>
         </methods>
       </class> <!-- tests.RegisterPasswordTest -->
       <class name="tests.RegisterFirstNameTest">
         <methods>
           <include name="setup"/>
+          <include name="FN_01_Empty"/>
           <include name="tearDown"/>
           <include name="FN_08_LeadingSpace"/>
           <include name="FN_02_Numeric"/>
           <include name="FN_06_LongName"/>
           <include name="FN_05_AlphaNumeric"/>
+          <include name="FN_10_Valid"/>
           <include name="FN_09_TrailingSpace"/>
           <include name="FN_03_Special"/>
           <include name="FN_04_SingleChar"/>
@@ -33,7 +39,9 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="EM_09_LongEmail"/>
           <include name="EM_01_Empty"/>
+          <include name="EM_07_MissingDot"/>
           <include name="EM_05_Spaces"/>
         </methods>
       </class> <!-- tests.RegisterEmailTest -->
@@ -49,7 +57,15 @@
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="FF_04_InvalidEmail"/>
+          <include name="FF_02_ValidWithTerms"/>
+          <include name="FF_09_DoubleSubmit"/>
+          <include name="FF_06_AllFieldsEmpty"/>
+          <include name="FF_07_OnlyNamesFilled"/>
           <include name="FF_01_NoTerms"/>
+          <include name="FF_03_InvalidMobile"/>
+          <include name="FF_10_AllValidUnique"/>
+          <include name="FF_05_MismatchPassword"/>
+          <include name="FF_08_OnlyMobileFilled"/>
         </methods>
       </class> <!-- tests.RegisterFullFlowTest -->
       <class name="tests.RegisterLastNameTest">
@@ -63,7 +79,9 @@
           <include name="LN_02_SingleChar"/>
           <include name="LN_08_LeadingSpace"/>
           <include name="LN_05_AlphaNumeric"/>
+          <include name="LN_10_Valid"/>
           <include name="LN_04_SpecialChar"/>
+          <include name="LN_01_Empty"/>
         </methods>
       </class> <!-- tests.RegisterLastNameTest -->
       <class name="tests.RegisterMobileTest">
@@ -71,14 +89,18 @@
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="MB_01_Empty"/>
-          <include name="MB_05_Special"/>
-          <include name="MB_07_Spaces"/>
           <include name="MB_03_Long"/>
-          <include name="MB_08_LeadingSpace"/>
           <include name="MB_06_Mixed"/>
-          <include name="MB_04_Alphabet"/>
         </methods>
       </class> <!-- tests.RegisterMobileTest -->
+      <class name="tests.ForgotPasswordTest">
+        <methods>
+          <include name="setup"/>
+          <include name="openForgotPage"/>
+          <include name="tearDown"/>
+          <include name="trailing_space"/>
+        </methods>
+      </class> <!-- tests.ForgotPasswordTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

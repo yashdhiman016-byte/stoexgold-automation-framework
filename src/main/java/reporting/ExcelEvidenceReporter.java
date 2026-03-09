@@ -26,6 +26,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+/**
+ * Thread-safe utility for creating and maintaining the QA Pass/Fail Excel evidence report.
+ */
 public final class ExcelEvidenceReporter {
 
     private static final String[] HEADERS = {

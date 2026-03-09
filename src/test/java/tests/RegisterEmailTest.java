@@ -1,54 +1,3 @@
-//package tests;
-//
-//import base.BaseTest;
-//import io.qameta.allure.Allure;
-//import io.qameta.allure.Step;
-//import org.testng.Assert;
-//import org.testng.annotations.Test;
-//import pages.RegisterPage;
-//
-//import java.util.List;
-//
-//public class RegisterEmailTest extends BaseTest {
-//
-//    private static final String URL = "https://dev-stoex-website.p2eppl.com/auth/register";
-//
-//    private void executeEmailTest(String email) {
-//        driver.get(URL);
-//        RegisterPage register = new RegisterPage(driver);
-//
-//        log("Email", email);
-//
-//        register.enterDetails("Yash", "Dhiman",
-//                "9876543210", email,
-//                "Valid@1234", "Valid@1234");
-//
-//        register.clickEmailSendOtp();
-//
-//        List<String> errors = register.getAllErrors();
-//        Allure.addAttachment("Email Errors", errors.toString());
-//
-//        Assert.assertTrue(errors.size() > 0);
-//    }
-//
-//    @Test public void EM_01_Empty() { executeEmailTest(""); }
-//    @Test public void EM_02_NoAt() { executeEmailTest("testmail.com"); }
-//    @Test public void EM_03_NoDomain() { executeEmailTest("test@"); }
-//    @Test public void EM_04_SpecialChar() { executeEmailTest("@@@@"); }
-//    @Test public void EM_05_Spaces() { executeEmailTest("     "); }
-//    @Test public void EM_06_InvalidFormat() { executeEmailTest("hjhj"); }
-//    @Test public void EM_07_MissingDot() { executeEmailTest("test@mailcom"); }
-//    @Test public void EM_08_UpperCase() { executeEmailTest("TEST@MAIL.COM"); }
-//    @Test public void EM_09_LongEmail() { executeEmailTest("verylongemailtesting@mail.com"); }
-//    @Test public void EM_10_Valid() { Assert.assertTrue(true); }
-//
-//    @Step("{key}: {value}")
-//    public void log(String key, String value) {
-//        Allure.parameter(key, value);
-//    }
-//}
-
-
 package tests;
 
 import base.BaseTest;
@@ -67,9 +16,7 @@ public class RegisterEmailTest extends BaseTest {
     private static final String URL =
             "https://dev-stoex-website.p2eppl.com/auth/register";
 
-    // ==============================
     // COMMON EXECUTION METHOD
-    // ==============================
 
     private void executeEmailTest(String emailInput) {
 
@@ -117,9 +64,7 @@ public class RegisterEmailTest extends BaseTest {
         );
     }
 
-    // ==============================
     // TEST CASES (10 SAMPLE)
-    // ==============================
 
     @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void EM_01_Empty() {

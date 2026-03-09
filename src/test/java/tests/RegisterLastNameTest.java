@@ -1,56 +1,3 @@
-//package tests;
-//
-//import base.BaseTest;
-//import io.qameta.allure.Allure;
-//import io.qameta.allure.Step;
-//import org.testng.Assert;
-//import org.testng.annotations.Test;
-//import pages.RegisterPage;
-//
-//import java.util.List;
-//
-//public class RegisterLastNameTest extends BaseTest {
-//
-//    private static final String URL = "https://dev-stoex-website.p2eppl.com/auth/register";
-//
-//    private void executeLastNameTest(String lastName) {
-//        driver.get(URL);
-//        RegisterPage register = new RegisterPage(driver);
-//
-//        log("Last Name", lastName);
-//
-//        register.enterDetails("Yash", lastName,
-//                "9876543210", "test@mail.com",
-//                "Valid@1234", "Valid@1234");
-//
-//        register.clickSubmit();
-//
-//        List<String> errors = register.getAllErrors();
-//        Allure.addAttachment("Errors", errors.toString());
-//
-//        Assert.assertTrue(errors.size() > 0);
-//    }
-//
-//    @Test public void LN_01_Empty() { executeLastNameTest(""); }
-//    @Test public void LN_02_SingleChar() { executeLastNameTest("D"); }
-//    @Test public void LN_03_Numeric() { executeLastNameTest("1234"); }
-//    @Test public void LN_04_SpecialChar() { executeLastNameTest("@@@"); }
-//    @Test public void LN_05_AlphaNumeric() { executeLastNameTest("Dhiman123"); }
-//    @Test public void LN_06_LongName() { executeLastNameTest("VeryLongLastNameTestVeryLongLastNameTestVeryLongLastNameTest"); }
-//    @Test public void LN_07_Spaces() { executeLastNameTest("    "); }
-//    @Test public void LN_08_LeadingSpace() { executeLastNameTest(" Dhiman"); }
-//    @Test public void LN_09_TrailingSpace() { executeLastNameTest("Dhiman "); }
-//    @Test public void LN_10_Valid() { Assert.assertTrue(true); }
-//
-//    @Step("{key}: {value}")
-//    public void log(String key, String value) {
-//        Allure.parameter(key, value);
-//    }
-//}
-
-
-
-
 package tests;
 
 import base.BaseTest;
@@ -69,9 +16,7 @@ public class RegisterLastNameTest extends BaseTest {
     private static final String URL =
             "https://dev-stoex-website.p2eppl.com/auth/register";
 
-    // ======================================
     // COMMON NEGATIVE EXECUTION METHOD
-    // ======================================
 
     private void executeNegative(String lastName) {
 
@@ -112,9 +57,7 @@ public class RegisterLastNameTest extends BaseTest {
         );
     }
 
-    // ======================================
     // NEGATIVE TEST CASES
-    // ======================================
 
     @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void LN_01_Empty() { executeNegative(""); }
@@ -145,9 +88,7 @@ public class RegisterLastNameTest extends BaseTest {
     @Test(description = "Validates the Trailing Space scenario to confirm the expected application behavior for this input combination.")
     public void LN_09_TrailingSpace() { executeNegative("Dhiman "); }
 
-    // ======================================
     // POSITIVE TEST
-    // ======================================
 
     @Test(description = "Validates the Valid scenario to confirm the expected application behavior for this input combination.")
     @Severity(SeverityLevel.CRITICAL)

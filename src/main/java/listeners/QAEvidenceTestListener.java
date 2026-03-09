@@ -12,6 +12,9 @@ import reporting.QaEvidence;
 import java.lang.reflect.Method;
 import java.time.LocalDateTime;
 
+/**
+ * TestNG listener that records execution evidence into the QA Excel report.
+ */
 public class QAEvidenceTestListener implements ITestListener, ISuiteListener {
 
     @Override
@@ -68,6 +71,7 @@ public class QAEvidenceTestListener implements ITestListener, ISuiteListener {
     }
 
     private String resolveTestCaseId(String methodName, QaEvidence evidence) {
+        // Prefer explicit annotation value; fallback to method naming convention.
         if (evidence != null && !evidence.testCaseId().isBlank()) {
             return evidence.testCaseId();
         }
@@ -80,6 +84,7 @@ public class QAEvidenceTestListener implements ITestListener, ISuiteListener {
     }
 
     private String resolveDescription(Method method, QaEvidence evidence, String methodName) {
+        // Priority: custom annotation, then TestNG @Test description, then method name.
         if (evidence != null && !evidence.description().isBlank()) {
             return evidence.description();
         }

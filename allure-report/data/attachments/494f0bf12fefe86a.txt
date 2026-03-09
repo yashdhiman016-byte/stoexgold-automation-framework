@@ -1,1 +1,0 @@
-[Mobile number must be at least 10 digits.]

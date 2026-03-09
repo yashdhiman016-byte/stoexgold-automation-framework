@@ -1,55 +1,3 @@
-//package tests;
-//
-//import base.BaseTest;
-//import io.qameta.allure.Allure;
-//import io.qameta.allure.Step;
-//import org.testng.Assert;
-//import org.testng.annotations.Test;
-//import pages.RegisterPage;
-//
-//public class RegisterMobileTest extends BaseTest {
-//
-//    private static final String URL =
-//            "https://dev-stoex-website.p2eppl.com/auth/register";
-//
-//    private void runTest(String mobile) {
-//
-//        driver.get(URL);
-//        RegisterPage register = new RegisterPage(driver);
-//
-//        log("Mobile", mobile);
-//
-//        register.enterDetails("Yash", "Dhiman",
-//                mobile, "test@mail.com",
-//                "Valid@1234", "Valid@1234");
-//
-//        register.clickMobileSendOtp();
-//
-//        String error = register.getMobileToastError();
-//        Allure.addAttachment("Mobile OTP Error", error);
-//
-//        Assert.assertTrue(error.length() > 0);
-//    }
-//
-//    @Test public void MB_01_Empty() { runTest(""); }
-//    @Test public void MB_02_Short() { runTest("123"); }
-//    @Test public void MB_03_Long() { runTest("1234567890123"); }
-//    @Test public void MB_04_Alphabet() { runTest("abcdefghij"); }
-//    @Test public void MB_05_Special() { runTest("@@@@"); }
-//    @Test public void MB_06_Mixed() { runTest("9876abc123"); }
-//    @Test public void MB_07_Spaces() { runTest("     "); }
-//    @Test public void MB_08_LeadingSpace() { runTest(" 9876543210"); }
-//    @Test public void MB_09_TrailingSpace() { runTest("9876543210 "); }
-//    @Test public void MB_10_ValidFormatWrongOTP() { runTest("9876543210"); }
-//
-//    @Step("{key}: {value}")
-//    public void log(String key, String value) {
-//        Allure.parameter(key, value);
-//    }
-//}
-
-
-
 package tests;
 
 import base.BaseTest;
@@ -68,9 +16,7 @@ public class RegisterMobileTest extends BaseTest {
     private static final String URL =
             "https://dev-stoex-website.p2eppl.com/auth/register";
 
-    // ======================================
     // COMMON NEGATIVE EXECUTION
-    // ======================================
 
     private void executeNegative(String mobileInput) {
 
@@ -118,9 +64,7 @@ public class RegisterMobileTest extends BaseTest {
         );
     }
 
-    // ======================================
     // NEGATIVE TEST CASES
-    // ======================================
 
     @Test(description = "Validates the Empty scenario to confirm the expected application behavior for this input combination.")
     public void MB_01_Empty() { executeNegative(""); }
@@ -149,9 +93,7 @@ public class RegisterMobileTest extends BaseTest {
     @Test(description = "Validates the Trailing Space scenario to confirm the expected application behavior for this input combination.")
     public void MB_09_TrailingSpace() { executeNegative("9876543210 "); }
 
-    // ======================================
     // VALID FORMAT (May Proceed to OTP Screen)
-    // ======================================
 
     @Test(description = "Validates the Valid Format scenario to confirm the expected application behavior for this input combination.")
     @Severity(SeverityLevel.CRITICAL)

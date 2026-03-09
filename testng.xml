@@ -1,8 +1,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="StoexSuite">
+<suite name="StoexSuite" parallel="classes" thread-count="2" verbose="2">
     <test name="StoexTests">
         <classes>
             <class name="tests.ForgotPasswordTest"/>
+            <class name="tests.LoginValidationTest"/>
+            <class name="tests.RegisterEmailTest"/>
+            <class name="tests.RegisterFirstNameTest"/>
+            <class name="tests.RegisterFullFlowTest"/>
+            <class name="tests.RegisterLastNameTest"/>
+            <class name="tests.RegisterMobileTest"/>
+            <class name="tests.RegisterPasswordTest"/>
         </classes>
     </test>
 </suite>
