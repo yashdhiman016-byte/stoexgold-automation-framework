@@ -9,6 +9,9 @@ import pages.RegisterPage;
 
 import java.util.List;
 
+/**
+ * Validates password and confirm-password rules during registration.
+ */
 @Epic("Authentication")
 @Feature("Register - Password Validation")
 public class RegisterPasswordTest extends BaseTest {

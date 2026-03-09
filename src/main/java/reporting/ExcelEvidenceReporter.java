@@ -68,6 +68,9 @@ public final class ExcelEvidenceReporter {
     private ExcelEvidenceReporter() {
     }
 
+    /**
+     * Initializes workbook, sheet, output directories, and styles once per suite run.
+     */
     public static void initializeReport() {
         synchronized (LOCK) {
             if (INITIALIZED.get()) {

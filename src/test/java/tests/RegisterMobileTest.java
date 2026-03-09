@@ -9,6 +9,9 @@ import pages.RegisterPage;
 
 import java.util.List;
 
+/**
+ * Validates mobile number rules and OTP send behavior in registration.
+ */
 @Epic("Authentication")
 @Feature("Register - Mobile Validation")
 public class RegisterMobileTest extends BaseTest {

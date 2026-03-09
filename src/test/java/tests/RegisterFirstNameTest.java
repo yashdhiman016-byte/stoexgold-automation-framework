@@ -9,6 +9,9 @@ import pages.RegisterPage;
 
 import java.util.List;
 
+/**
+ * Validates first-name field rules during registration.
+ */
 @Epic("Authentication")
 @Feature("Register - First Name Validation")
 public class RegisterFirstNameTest extends BaseTest {

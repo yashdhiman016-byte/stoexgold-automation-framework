@@ -9,6 +9,9 @@ import pages.LoginPage;
 
 import java.util.List;
 
+/**
+ * Covers email and mobile login validation scenarios.
+ */
 @Epic("Login Validation Suite")
 @Feature("Email & Mobile Login Validations")
 public class LoginValidationTest extends BaseTest {

@@ -8,6 +8,7 @@
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="EM_09_LongEmail"/>
+          <include name="EM_08_DoubleAt"/>
           <include name="EM_03_NoDomain"/>
           <include name="EM_01_Empty"/>
           <include name="EM_07_MissingDot"/>
@@ -50,11 +51,10 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="MB_10_ValidFormat"/>
           <include name="MB_01_Empty"/>
-          <include name="MB_05_Special"/>
-          <include name="MB_07_Spaces"/>
-          <include name="MB_06_Mixed"/>
+          <include name="MB_08_LeadingSpace"/>
+          <include name="MB_09_TrailingSpace"/>
+          <include name="MB_04_Alphabet"/>
         </methods>
       </class> <!-- tests.RegisterMobileTest -->
       <class name="tests.RegisterFullFlowTest">
@@ -89,6 +89,13 @@
           <include name="FN_07_Spaces"/>
         </methods>
       </class> <!-- tests.RegisterFirstNameTest -->
+      <class name="tests.LoginValidationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="mobile_rapid_click"/>
+        </methods>
+      </class> <!-- tests.LoginValidationTest -->
     </classes>
   </test> <!-- StoexTests(failed) -->
 </suite> <!-- Failed suite [StoexSuite] -->

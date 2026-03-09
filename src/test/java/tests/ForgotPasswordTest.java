@@ -9,6 +9,9 @@ import pages.ForgotPasswordPage;
 
 import java.util.List;
 
+/**
+ * Validates forgot password email field behavior across negative and positive scenarios.
+ */
 @Epic("Authentication")
 @Feature("Forgot Password")
 public class ForgotPasswordTest extends BaseTest {

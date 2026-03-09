@@ -9,6 +9,9 @@ import pages.RegisterPage;
 
 import java.util.List;
 
+/**
+ * Validates registration email input and OTP trigger behavior.
+ */
 @Epic("Authentication")
 @Feature("Register - Email OTP Validation")
 public class RegisterEmailTest extends BaseTest {

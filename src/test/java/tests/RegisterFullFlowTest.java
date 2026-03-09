@@ -9,6 +9,9 @@ import utils.TestDataGenerator;
 
 import java.util.List;
 
+/**
+ * Validates end-to-end registration combinations across valid and invalid flows.
+ */
 @Epic("Authentication")
 @Feature("Register - Full Flow Validation")
 public class RegisterFullFlowTest extends BaseTest {

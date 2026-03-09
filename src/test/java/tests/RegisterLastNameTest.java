@@ -9,6 +9,9 @@ import pages.RegisterPage;
 
 import java.util.List;
 
+/**
+ * Validates last-name field rules during registration.
+ */
 @Epic("Authentication")
 @Feature("Register - Last Name Validation")
 public class RegisterLastNameTest extends BaseTest {
